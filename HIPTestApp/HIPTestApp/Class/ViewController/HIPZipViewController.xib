@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HIPZipViewController">
+            <connections>
+                <outlet property="cipherTextView" destination="mzD-Lc-b2B" id="WYU-gk-uRq"/>
+                <outlet property="originalTextView" destination="j3O-ag-xjO" id="vEi-DT-ams"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="j3O-ag-xjO" userLabel="OriginalTextView">
+                    <rect key="frame" x="8" y="8" width="584" height="262"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mzD-Lc-b2B" userLabel="CipherTextView">
+                    <rect key="frame" x="8" y="330" width="584" height="262"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bYC-Fd-MyG" userLabel="BtnView">
+                    <rect key="frame" x="8" y="278" width="584" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sv-sk-9iQ" userLabel="encryptBtn">
+                            <rect key="frame" x="163" y="6" width="64" height="32"/>
+                            <color key="backgroundColor" red="0.070588235294117646" green="0.6470588235294118" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="64" id="krN-xF-Eai"/>
+                                <constraint firstAttribute="height" constant="32" id="zyo-AD-bri"/>
+                            </constraints>
+                            <state key="normal" title="压缩">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="encryptAction:" destination="-1" eventType="touchUpInside" id="6ww-KX-dCb"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFL-Ul-cJC" userLabel="decryptBtn">
+                            <rect key="frame" x="357" y="6" width="64" height="32"/>
+                            <color key="backgroundColor" red="0.070588235289999995" green="0.64705882349999999" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="64" id="cOY-ha-4nH"/>
+                                <constraint firstAttribute="height" constant="32" id="gyl-JV-LK1"/>
+                            </constraints>
+                            <state key="normal" title="解压缩">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="decryptAction:" destination="-1" eventType="touchUpInside" id="BcF-B2-84M"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="0sv-sk-9iQ" firstAttribute="centerX" secondItem="bYC-Fd-MyG" secondAttribute="centerX" multiplier="2:3" id="4af-QJ-y6O"/>
+                        <constraint firstItem="cFL-Ul-cJC" firstAttribute="centerX" secondItem="bYC-Fd-MyG" secondAttribute="centerX" multiplier="4:3" id="HLW-WC-3GR"/>
+                        <constraint firstItem="cFL-Ul-cJC" firstAttribute="centerY" secondItem="bYC-Fd-MyG" secondAttribute="centerY" id="NwU-Hz-aLu"/>
+                        <constraint firstItem="0sv-sk-9iQ" firstAttribute="centerY" secondItem="bYC-Fd-MyG" secondAttribute="centerY" id="soZ-ZT-sbJ"/>
+                        <constraint firstAttribute="height" constant="44" id="v4F-MX-3lk"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mzD-Lc-b2B" secondAttribute="trailing" constant="8" id="7cT-Rm-amg"/>
+                <constraint firstAttribute="bottom" secondItem="mzD-Lc-b2B" secondAttribute="bottom" constant="8" id="L4r-oz-WSd"/>
+                <constraint firstAttribute="trailing" secondItem="bYC-Fd-MyG" secondAttribute="trailing" constant="8" id="MlA-E5-grk"/>
+                <constraint firstItem="j3O-ag-xjO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="Mrd-jO-E7P"/>
+                <constraint firstAttribute="trailing" secondItem="j3O-ag-xjO" secondAttribute="trailing" constant="8" id="Q59-SN-yhm"/>
+                <constraint firstItem="j3O-ag-xjO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="bVL-iH-3ch"/>
+                <constraint firstItem="mzD-Lc-b2B" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="f2y-Fc-PEq"/>
+                <constraint firstItem="mzD-Lc-b2B" firstAttribute="height" secondItem="j3O-ag-xjO" secondAttribute="height" id="f6R-hv-FAW"/>
+                <constraint firstItem="mzD-Lc-b2B" firstAttribute="top" secondItem="bYC-Fd-MyG" secondAttribute="bottom" constant="8" id="rVx-mW-puK"/>
+                <constraint firstItem="bYC-Fd-MyG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="sFK-N1-PA7"/>
+                <constraint firstItem="bYC-Fd-MyG" firstAttribute="top" secondItem="j3O-ag-xjO" secondAttribute="bottom" constant="8" id="z15-Jp-3Qc"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
