@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F16113F11E8A84CE00FBE231 /* JUMPJID.m in Sources */ = {isa = PBXBuildFile; fileRef = F16113F01E8A84CE00FBE231 /* JUMPJID.m */; };
+		F16113F41E8A851F00FBE231 /* JUMPJIDTester.m in Sources */ = {isa = PBXBuildFile; fileRef = F16113F31E8A851F00FBE231 /* JUMPJIDTester.m */; };
 		F196C7FB1E6FE5E2008DF35C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C7FA1E6FE5E2008DF35C /* main.m */; };
 		F196C8111E6FE620008DF35C /* MessageVersionTester.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C8041E6FE620008DF35C /* MessageVersionTester.m */; };
 		F196C8121E6FE620008DF35C /* MessageVersionUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C8061E6FE620008DF35C /* MessageVersionUtility.m */; };
@@ -29,6 +31,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F16113EF1E8A84CE00FBE231 /* JUMPJID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPJID.h; sourceTree = "<group>"; };
+		F16113F01E8A84CE00FBE231 /* JUMPJID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPJID.m; sourceTree = "<group>"; };
+		F16113F21E8A851F00FBE231 /* JUMPJIDTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPJIDTester.h; sourceTree = "<group>"; };
+		F16113F31E8A851F00FBE231 /* JUMPJIDTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPJIDTester.m; sourceTree = "<group>"; };
 		F196C7F71E6FE5E2008DF35C /* HIPTestCmdLineTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HIPTestCmdLineTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		F196C7FA1E6FE5E2008DF35C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F196C8031E6FE620008DF35C /* MessageVersionTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageVersionTester.h; sourceTree = "<group>"; };
@@ -56,6 +62,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F16113EE1E8A848900FBE231 /* JUMPJID */ = {
+			isa = PBXGroup;
+			children = (
+				F16113EF1E8A84CE00FBE231 /* JUMPJID.h */,
+				F16113F01E8A84CE00FBE231 /* JUMPJID.m */,
+				F16113F21E8A851F00FBE231 /* JUMPJIDTester.h */,
+				F16113F31E8A851F00FBE231 /* JUMPJIDTester.m */,
+			);
+			path = JUMPJID;
+			sourceTree = "<group>";
+		};
 		F196C7EE1E6FE5E2008DF35C = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +101,7 @@
 		F196C8011E6FE620008DF35C /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				F16113EE1E8A848900FBE231 /* JUMPJID */,
 				F196C8021E6FE620008DF35C /* MessageVersion */,
 				F196C8071E6FE620008DF35C /* NumAnalysis */,
 				F196C80C1E6FE620008DF35C /* UrlAnalysis */,
@@ -189,6 +207,8 @@
 				F196C7FB1E6FE5E2008DF35C /* main.m in Sources */,
 				F196C8151E6FE620008DF35C /* UrlAnalysisTester.m in Sources */,
 				F196C8111E6FE620008DF35C /* MessageVersionTester.m in Sources */,
+				F16113F11E8A84CE00FBE231 /* JUMPJID.m in Sources */,
+				F16113F41E8A851F00FBE231 /* JUMPJIDTester.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +337,7 @@
 				F196C8001E6FE5E2008DF35C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,6 +10,7 @@
 #import "MessageVersionTester.h"
 #import "UrlAnalysisTester.h"
 #import "NumAnalysisTester.h"
+#import "JUMPJIDTester.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -19,7 +20,8 @@ int main(int argc, const char * argv[]) {
         
         
         //        [[UrlAnalysisTester sharedInstance] testUrlRegex];
-        [[NumAnalysisTester sharedInstance] testNumRegex];
+        //        [[NumAnalysisTester sharedInstance] testNumRegex];
+        [[JUMPJIDTester sharedInstance] test];
     }
     return 0;
 }
