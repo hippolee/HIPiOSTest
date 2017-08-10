@@ -22,6 +22,7 @@
 #import "HIPSvgViewController.h"
 #import "HIPStackMenuViewController.h"
 #import "HIPLayerController.h"
+#import "HIPTabMainViewController.h"
 
 @interface HIPTableViewController ()
 
@@ -56,7 +57,7 @@
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 14;
+    return 15;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -110,6 +111,9 @@
             break;
         case 13:
             [[cell textLabel] setText:@"ActionSheet"];
+            break;
+        case 14:
+            [[cell textLabel] setText:@"TabDEMO"];
             break;
         default:
             break;
@@ -187,6 +191,10 @@
         case 13: {
             
             break;
+        }
+        case 14: {
+            HIPTabMainViewController *tabMainVC = [[HIPTabMainViewController alloc] init];
+            [HIPUtility pushFromViewController:self toViewController:tabMainVC animated:YES];
         }
         default:
             break;

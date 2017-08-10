@@ -112,6 +112,10 @@
 		F196C7DA1E6FDC72008DF35C /* libZXingObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F196C7771E6FDC72008DF35C /* libZXingObjC.a */; };
 		F196C7EC1E6FE244008DF35C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F196C7DE1E6FDDB9008DF35C /* libz.tbd */; };
 		F196C7ED1E6FE256008DF35C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F196C7DC1E6FDDAD008DF35C /* libsqlite3.tbd */; };
+		F1FE07781EA1DBD00080D43A /* HIPTabMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FE07771EA1DBD00080D43A /* HIPTabMainViewController.m */; };
+		F1FE077B1EA1DC280080D43A /* HIPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FE077A1EA1DC280080D43A /* HIPFirstViewController.m */; };
+		F1FE077E1EA1DC380080D43A /* HIPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FE077D1EA1DC380080D43A /* HIPSecondViewController.m */; };
+		F1FE07811EA1DC490080D43A /* HIPThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FE07801EA1DC490080D43A /* HIPThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -627,6 +631,14 @@
 		F196C7E61E6FDDE9008DF35C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		F196C7E81E6FDDF0008DF35C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F196C7EA1E6FDDFA008DF35C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F1FE07761EA1DBD00080D43A /* HIPTabMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPTabMainViewController.h; sourceTree = "<group>"; };
+		F1FE07771EA1DBD00080D43A /* HIPTabMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPTabMainViewController.m; sourceTree = "<group>"; };
+		F1FE07791EA1DC280080D43A /* HIPFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPFirstViewController.h; sourceTree = "<group>"; };
+		F1FE077A1EA1DC280080D43A /* HIPFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPFirstViewController.m; sourceTree = "<group>"; };
+		F1FE077C1EA1DC380080D43A /* HIPSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPSecondViewController.h; sourceTree = "<group>"; };
+		F1FE077D1EA1DC380080D43A /* HIPSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPSecondViewController.m; sourceTree = "<group>"; };
+		F1FE077F1EA1DC490080D43A /* HIPThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPThirdViewController.h; sourceTree = "<group>"; };
+		F1FE07801EA1DC490080D43A /* HIPThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -830,6 +842,7 @@
 		F196C5B31E6FDC71008DF35C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F1FE07751EA1C5CD0080D43A /* Tab */,
 				F196C5B41E6FDC71008DF35C /* HIPChatBubbleLayer.h */,
 				F196C5B51E6FDC71008DF35C /* HIPChatBubbleLayer.m */,
 				F196C5B61E6FDC71008DF35C /* HIPColorViewController.h */,
@@ -1386,6 +1399,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F1FE07751EA1C5CD0080D43A /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				F1FE07761EA1DBD00080D43A /* HIPTabMainViewController.h */,
+				F1FE07771EA1DBD00080D43A /* HIPTabMainViewController.m */,
+				F1FE07791EA1DC280080D43A /* HIPFirstViewController.h */,
+				F1FE077A1EA1DC280080D43A /* HIPFirstViewController.m */,
+				F1FE077C1EA1DC380080D43A /* HIPSecondViewController.h */,
+				F1FE077D1EA1DC380080D43A /* HIPSecondViewController.m */,
+				F1FE077F1EA1DC490080D43A /* HIPThirdViewController.h */,
+				F1FE07801EA1DC490080D43A /* HIPThirdViewController.m */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1492,12 +1520,14 @@
 				F196C7851E6FDC72008DF35C /* HIPUtility.m in Sources */,
 				F196C79E1E6FDC72008DF35C /* HIPMainViewController.m in Sources */,
 				F196C7D21E6FDC72008DF35C /* UIImageView+WebCache.m in Sources */,
+				F1FE07811EA1DC490080D43A /* HIPThirdViewController.m in Sources */,
 				F196C77F1E6FDC72008DF35C /* HIPColorHelper.m in Sources */,
 				F196C7821E6FDC72008DF35C /* HIPImageUtility.m in Sources */,
 				F196C7971E6FDC72008DF35C /* HIPCusCodeViewController.m in Sources */,
 				F196C78E1E6FDC72008DF35C /* HIPStackMenu.m in Sources */,
 				F196C7AC1E6FDC72008DF35C /* HIPZipViewController.m in Sources */,
 				F196C7A41E6FDC72008DF35C /* HIPStackMenuViewController.m in Sources */,
+				F1FE077B1EA1DC280080D43A /* HIPFirstViewController.m in Sources */,
 				F196C7B11E6FDC72008DF35C /* AFHTTPSessionManager.m in Sources */,
 				F196C7C81E6FDC72008DF35C /* SDWebImageCompat.m in Sources */,
 				F196C7BC1E6FDC72008DF35C /* UIImageView+AFNetworking.m in Sources */,
@@ -1506,9 +1536,11 @@
 				F196C7A81E6FDC72008DF35C /* HIPTestCollectionViewCell.m in Sources */,
 				F196C7961E6FDC72008DF35C /* HIPColorViewController.m in Sources */,
 				F196C7D71E6FDC72008DF35C /* zip.c in Sources */,
+				F1FE07781EA1DBD00080D43A /* HIPTabMainViewController.m in Sources */,
 				F196C7BD1E6FDC72008DF35C /* UIProgressView+AFNetworking.m in Sources */,
 				F196C7D11E6FDC72008DF35C /* UIImageView+HighlightedWebCache.m in Sources */,
 				F196C7D61E6FDC72008DF35C /* unzip.c in Sources */,
+				F1FE077E1EA1DC380080D43A /* HIPSecondViewController.m in Sources */,
 				F196C7B51E6FDC72008DF35C /* AFURLRequestSerialization.m in Sources */,
 				F196C79A1E6FDC72008DF35C /* HIPHeadViewController.m in Sources */,
 				F196C7D01E6FDC72008DF35C /* UIImage+MultiFormat.m in Sources */,
@@ -1669,6 +1701,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2XD94V8982;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HIPTestApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1687,6 +1720,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2XD94V8982;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HIPTestApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1719,6 +1753,7 @@
 				F196C56E1E6FDB17008DF35C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
