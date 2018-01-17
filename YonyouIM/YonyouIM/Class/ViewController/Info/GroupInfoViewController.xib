@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GroupInfoViewController">
+            <connections>
+                <outlet property="tableView" destination="b0f-fs-Sft" id="jLR-gT-vwj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="b0f-fs-Sft">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="230" id="FQg-sA-eJo"/>
+                    </constraints>
+                    <color key="separatorColor" red="0.97254901959999995" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="FQg-sA-eJo"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="ELc-6F-TbK"/>
+                        <outlet property="delegate" destination="-1" id="Fnz-pw-akL"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="b0f-fs-Sft" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="9fD-eq-Aq7"/>
+                <constraint firstItem="b0f-fs-Sft" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MCs-el-D2k"/>
+                <constraint firstAttribute="bottom" secondItem="b0f-fs-Sft" secondAttribute="bottom" id="oRd-7z-XeZ"/>
+                <constraint firstAttribute="trailing" secondItem="b0f-fs-Sft" secondAttribute="trailing" id="q9V-xU-tjj"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

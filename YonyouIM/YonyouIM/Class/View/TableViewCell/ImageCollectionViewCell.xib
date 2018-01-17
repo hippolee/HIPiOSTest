@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageCollectionViewCell" id="gTV-IL-0wX" customClass="ImageCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="309"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="326" height="309"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7aI-ow-hx6">
+                        <rect key="frame" x="0.0" y="0.0" width="326" height="309"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JxK-gf-ELE">
+                                <rect key="frame" x="2" y="2" width="322" height="305"/>
+                            </imageView>
+                            <view hidden="YES" alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9BX-t6-4aH">
+                                <rect key="frame" x="2" y="2" width="322" height="305"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="COG-ge-iIg" userLabel="checkboxBtn">
+                                <rect key="frame" x="163" y="0.0" width="163" height="155"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="4" maxX="4" maxY="0.0"/>
+                                <state key="normal" image="icon_checkbox">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="icon_checkbox_hl"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9BX-t6-4aH" firstAttribute="top" secondItem="7aI-ow-hx6" secondAttribute="top" constant="2" id="1Rr-x6-pDb"/>
+                            <constraint firstItem="COG-ge-iIg" firstAttribute="top" secondItem="7aI-ow-hx6" secondAttribute="top" id="4Zl-c3-t2n"/>
+                            <constraint firstAttribute="trailing" secondItem="9BX-t6-4aH" secondAttribute="trailing" constant="2" id="BLF-EF-gBa"/>
+                            <constraint firstAttribute="trailing" secondItem="JxK-gf-ELE" secondAttribute="trailing" constant="2" id="Bmn-qb-yKt"/>
+                            <constraint firstItem="JxK-gf-ELE" firstAttribute="leading" secondItem="7aI-ow-hx6" secondAttribute="leading" constant="2" id="Ke9-Ec-W28"/>
+                            <constraint firstItem="JxK-gf-ELE" firstAttribute="top" secondItem="7aI-ow-hx6" secondAttribute="top" constant="2" id="PYo-Hg-oKp"/>
+                            <constraint firstItem="COG-ge-iIg" firstAttribute="width" secondItem="7aI-ow-hx6" secondAttribute="width" multiplier="1:2" id="Qpm-PC-Vx3"/>
+                            <constraint firstItem="COG-ge-iIg" firstAttribute="height" secondItem="7aI-ow-hx6" secondAttribute="height" multiplier="1:2" id="R2B-mV-la6"/>
+                            <constraint firstAttribute="trailing" secondItem="COG-ge-iIg" secondAttribute="trailing" id="bGH-ld-Ned"/>
+                            <constraint firstAttribute="bottom" secondItem="9BX-t6-4aH" secondAttribute="bottom" constant="2" id="gVv-t5-CSi"/>
+                            <constraint firstAttribute="bottom" secondItem="JxK-gf-ELE" secondAttribute="bottom" constant="2" id="leL-ur-S9u"/>
+                            <constraint firstItem="9BX-t6-4aH" firstAttribute="leading" secondItem="7aI-ow-hx6" secondAttribute="leading" constant="2" id="xAc-5w-Eiv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="7aI-ow-hx6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="59N-CJ-pPE"/>
+                <constraint firstAttribute="bottom" secondItem="7aI-ow-hx6" secondAttribute="bottom" id="CGE-43-WH7"/>
+                <constraint firstAttribute="trailing" secondItem="7aI-ow-hx6" secondAttribute="trailing" id="ET6-or-Ip6"/>
+                <constraint firstItem="7aI-ow-hx6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="kW2-kW-29u"/>
+            </constraints>
+            <size key="customSize" width="326" height="309"/>
+            <connections>
+                <outlet property="checkboxButton" destination="COG-ge-iIg" id="eEf-Yi-oei"/>
+                <outlet property="foregroundView" destination="9BX-t6-4aH" id="Y19-Ci-vNd"/>
+                <outlet property="imageView" destination="JxK-gf-ELE" id="e3U-p9-1Pr"/>
+                <outlet property="view" destination="7aI-ow-hx6" id="Dnm-40-O0O"/>
+            </connections>
+            <point key="canvasLocation" x="219" y="122.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_checkbox" width="20" height="20"/>
+        <image name="icon_checkbox_hl" width="20" height="20"/>
+    </resources>
+</document>

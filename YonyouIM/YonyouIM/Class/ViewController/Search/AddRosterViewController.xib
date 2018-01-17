@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddRosterViewController">
+            <connections>
+                <outlet property="searchBar" destination="JHY-Qm-iWB" id="ePa-cb-RAA"/>
+                <outlet property="tableView" destination="8JD-qo-gDI" id="QHv-lU-NIq"/>
+                <outlet property="view" destination="iN0-l3-epB" id="5DT-uC-ghd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="JHY-Qm-iWB">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="6oj-3Z-0dL"/>
+                    </connections>
+                </searchBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="8JD-qo-gDI">
+                    <rect key="frame" x="0.0" y="44" width="600" height="556"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="separatorColor" red="0.97254901959999995" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="separatorInset" minX="72" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="djt-zX-Lcq"/>
+                        <outlet property="delegate" destination="-1" id="5SE-sx-w3C"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="8JD-qo-gDI" secondAttribute="bottom" id="CDv-cz-Wfm"/>
+                <constraint firstAttribute="trailing" secondItem="8JD-qo-gDI" secondAttribute="trailing" id="Lpu-1a-Kta"/>
+                <constraint firstItem="JHY-Qm-iWB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="acu-ST-pm7"/>
+                <constraint firstItem="JHY-Qm-iWB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cl0-DQ-Zde"/>
+                <constraint firstItem="8JD-qo-gDI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ixM-Kb-wmJ"/>
+                <constraint firstAttribute="trailing" secondItem="JHY-Qm-iWB" secondAttribute="trailing" id="jlk-Wn-ctX"/>
+                <constraint firstItem="8JD-qo-gDI" firstAttribute="top" secondItem="JHY-Qm-iWB" secondAttribute="bottom" id="re6-fj-uIJ"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+        </view>
+    </objects>
+</document>

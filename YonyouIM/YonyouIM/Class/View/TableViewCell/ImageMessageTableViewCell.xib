@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ImageMessageTableViewCell" id="KGk-i7-Jjw" customClass="ImageMessageTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jPO-4u-4tn" userLabel="image1">
+                        <rect key="frame" x="0.0" y="0.0" width="79" height="41"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ofv-4E-6BP" userLabel="image2">
+                        <rect key="frame" x="81" y="0.0" width="78" height="41"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gg5-Lf-ce0" userLabel="image3">
+                        <rect key="frame" x="161" y="0.0" width="79" height="41"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xLo-Lq-xiu" userLabel="image4">
+                        <rect key="frame" x="242" y="0.0" width="78" height="41"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="jPO-4u-4tn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="3Ib-eJ-p2N"/>
+                    <constraint firstItem="ofv-4E-6BP" firstAttribute="width" secondItem="jPO-4u-4tn" secondAttribute="width" id="3j3-k6-6uI"/>
+                    <constraint firstItem="xLo-Lq-xiu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7W8-UK-ERC"/>
+                    <constraint firstItem="ofv-4E-6BP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7zU-wY-Vko"/>
+                    <constraint firstItem="xLo-Lq-xiu" firstAttribute="leading" secondItem="gg5-Lf-ce0" secondAttribute="trailing" constant="2" id="808-MG-5tf"/>
+                    <constraint firstItem="jPO-4u-4tn" firstAttribute="width" secondItem="gg5-Lf-ce0" secondAttribute="width" id="Bd6-OD-QOl"/>
+                    <constraint firstItem="ofv-4E-6BP" firstAttribute="leading" secondItem="jPO-4u-4tn" secondAttribute="trailing" constant="2" id="CaN-uT-mND"/>
+                    <constraint firstItem="jPO-4u-4tn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="DZs-vk-cAo"/>
+                    <constraint firstItem="gg5-Lf-ce0" firstAttribute="leading" secondItem="ofv-4E-6BP" secondAttribute="trailing" constant="2" id="K8r-1z-6l3"/>
+                    <constraint firstAttribute="bottom" secondItem="ofv-4E-6BP" secondAttribute="bottom" constant="2" id="NdD-Ox-BHt"/>
+                    <constraint firstAttribute="bottom" secondItem="gg5-Lf-ce0" secondAttribute="bottom" constant="2" id="cxg-zF-tHY"/>
+                    <constraint firstAttribute="bottom" secondItem="xLo-Lq-xiu" secondAttribute="bottom" constant="2" id="eAC-R3-5gA"/>
+                    <constraint firstItem="gg5-Lf-ce0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gcU-g5-5Kn"/>
+                    <constraint firstAttribute="trailing" secondItem="xLo-Lq-xiu" secondAttribute="trailing" id="kwk-pj-ira"/>
+                    <constraint firstAttribute="bottom" secondItem="jPO-4u-4tn" secondAttribute="bottom" constant="2" id="njH-Im-42I"/>
+                    <constraint firstItem="xLo-Lq-xiu" firstAttribute="width" secondItem="jPO-4u-4tn" secondAttribute="width" id="rG2-OU-xKo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="image1" destination="jPO-4u-4tn" id="TbE-R6-aX7"/>
+                <outlet property="image2" destination="ofv-4E-6BP" id="Q7A-8M-S0C"/>
+                <outlet property="image3" destination="gg5-Lf-ce0" id="etP-GZ-JGk"/>
+                <outlet property="image4" destination="xLo-Lq-xiu" id="HFf-Vv-eMZ"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

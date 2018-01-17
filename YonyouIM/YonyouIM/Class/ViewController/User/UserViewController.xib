@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserViewController">
+            <connections>
+                <outlet property="menuView" destination="mp0-0o-CFg" id="v2W-Qf-F5O"/>
+                <outlet property="tableView" destination="VjC-zp-56j" id="eR2-vh-hOs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="VjC-zp-56j" userLabel="TableView">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="548"/>
+                    <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="sectionIndexBackgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="bOm-22-Zed"/>
+                        <outlet property="delegate" destination="-1" id="YQx-1p-xgI"/>
+                    </connections>
+                </tableView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mp0-0o-CFg" userLabel="MenuView" customClass="MenuView">
+                    <rect key="frame" x="472" y="0.0" width="120" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Cbx-D4-j96"/>
+                        <constraint firstAttribute="width" constant="120" id="Zde-60-VZ1"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yrf-Bh-f7k" userLabel="SendView">
+                    <rect key="frame" x="0.0" y="548" width="600" height="52"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WtA-g0-4jQ">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="52"/>
+                            <state key="normal" title="  发消息" image="icon_message">
+                                <color key="titleColor" red="0.40392156862745099" green="0.77254901960784317" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="sendAction:" destination="-1" eventType="touchUpInside" id="fHS-wH-6jS"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="WtA-g0-4jQ" secondAttribute="trailing" id="7go-d3-YQw"/>
+                        <constraint firstItem="WtA-g0-4jQ" firstAttribute="leading" secondItem="yrf-Bh-f7k" secondAttribute="leading" id="8R1-hA-okr"/>
+                        <constraint firstAttribute="height" constant="52" id="MCC-9O-HM9"/>
+                        <constraint firstItem="WtA-g0-4jQ" firstAttribute="top" secondItem="yrf-Bh-f7k" secondAttribute="top" id="QSp-Fl-qvM"/>
+                        <constraint firstAttribute="bottom" secondItem="WtA-g0-4jQ" secondAttribute="bottom" id="XDL-FZ-KJ8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="mp0-0o-CFg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="0ao-7b-S1V"/>
+                <constraint firstAttribute="trailing" secondItem="VjC-zp-56j" secondAttribute="trailing" id="4HH-gw-2y4"/>
+                <constraint firstAttribute="bottom" secondItem="yrf-Bh-f7k" secondAttribute="bottom" id="5K2-aL-YRM"/>
+                <constraint firstItem="yrf-Bh-f7k" firstAttribute="top" secondItem="VjC-zp-56j" secondAttribute="bottom" id="810-5r-Uli"/>
+                <constraint firstAttribute="trailing" secondItem="mp0-0o-CFg" secondAttribute="trailing" constant="8" id="J7F-5h-X5k"/>
+                <constraint firstItem="VjC-zp-56j" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="TzB-Sl-xsE"/>
+                <constraint firstItem="VjC-zp-56j" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="dVb-6O-rYs"/>
+                <constraint firstAttribute="trailing" secondItem="yrf-Bh-f7k" secondAttribute="trailing" id="xYr-wp-pxC"/>
+                <constraint firstItem="yrf-Bh-f7k" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="y5M-SH-o9y"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_message" width="30" height="30"/>
+    </resources>
+</document>

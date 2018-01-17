@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatBatchMixedSubImageCell" rowHeight="225" id="KGk-i7-Jjw" customClass="ChatBatchMixedSubImageCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="225"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w9Z-hz-IQM">
+                        <rect key="frame" x="10" y="10" width="300" height="204"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="w9Z-hz-IQM" secondAttribute="height" multiplier="16:9" priority="750" id="nP0-Cw-UI1"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HXp-05-1ME">
+                        <rect key="frame" x="10" y="178" width="300" height="36"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="kHU-TT-ba0">
+                                <rect key="frame" x="4" y="8" width="292" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="YnU-ig-jSV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="kHU-TT-ba0" secondAttribute="trailing" constant="4" id="3RT-VT-lsc"/>
+                            <constraint firstAttribute="bottom" secondItem="kHU-TT-ba0" secondAttribute="bottom" constant="8" id="483-pj-ldg"/>
+                            <constraint firstItem="kHU-TT-ba0" firstAttribute="top" secondItem="HXp-05-1ME" secondAttribute="top" constant="8" id="Yhg-MH-jLB"/>
+                            <constraint firstItem="kHU-TT-ba0" firstAttribute="leading" secondItem="HXp-05-1ME" secondAttribute="leading" constant="4" id="qBh-2T-HqX"/>
+                        </constraints>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FIT-NQ-hAm" userLabel="sepView">
+                        <rect key="frame" x="0.0" y="223" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="f8F-cZ-Doz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="w9Z-hz-IQM" secondAttribute="bottom" constant="10" id="0j8-q9-or5"/>
+                    <constraint firstAttribute="bottom" secondItem="HXp-05-1ME" secondAttribute="bottom" constant="10" id="6zh-qf-kLv"/>
+                    <constraint firstAttribute="trailing" secondItem="HXp-05-1ME" secondAttribute="trailing" constant="10" id="7ih-FZ-W1t"/>
+                    <constraint firstAttribute="trailing" secondItem="w9Z-hz-IQM" secondAttribute="trailing" constant="10" id="BKI-Wh-DZm"/>
+                    <constraint firstItem="w9Z-hz-IQM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="PE2-Ik-uob"/>
+                    <constraint firstItem="HXp-05-1ME" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="hcM-zk-dug"/>
+                    <constraint firstAttribute="bottom" secondItem="FIT-NQ-hAm" secondAttribute="bottom" id="qoP-kG-AIk"/>
+                    <constraint firstItem="FIT-NQ-hAm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="rao-er-oUV"/>
+                    <constraint firstAttribute="trailing" secondItem="FIT-NQ-hAm" secondAttribute="trailing" id="x1a-Rg-sXp"/>
+                    <constraint firstItem="w9Z-hz-IQM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="xTh-ZM-YML"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="coverImage" destination="w9Z-hz-IQM" id="fe0-D3-6Hu"/>
+                <outlet property="sepView" destination="FIT-NQ-hAm" id="FyU-8P-eVE"/>
+                <outlet property="titleLabel" destination="kHU-TT-ba0" id="bAG-Pv-GCy"/>
+            </connections>
+            <point key="canvasLocation" x="213" y="413.5"/>
+        </tableViewCell>
+    </objects>
+</document>

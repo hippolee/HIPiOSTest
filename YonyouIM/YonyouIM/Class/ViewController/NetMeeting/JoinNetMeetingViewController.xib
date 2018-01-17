@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JoinNetMeetingViewController">
+            <connections>
+                <outlet property="channelText" destination="kfu-Fj-ASV" id="hzu-uD-r7R"/>
+                <outlet property="joinButton" destination="9LJ-Jj-OOE" id="d7g-0q-pHl"/>
+                <outlet property="nameLabel" destination="z8W-Df-zJw" id="EKb-lg-3PT"/>
+                <outlet property="topView" destination="Q5y-hQ-GkZ" id="coN-GW-Cf5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q5y-hQ-GkZ">
+                    <rect key="frame" x="0.0" y="16" width="600" height="95"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入会议ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kfu-Fj-ASV" userLabel="channelText">
+                            <rect key="frame" x="16" y="5" width="568" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="agg-wR-tK0"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8W-Df-zJw" userLabel="nameLabel">
+                            <rect key="frame" x="16" y="48" width="568" height="46"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="46" id="OLu-tu-uaZ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="textColor" red="0.30588235294117649" green="0.30588235294117649" blue="0.30588235294117649" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="kfu-Fj-ASV" firstAttribute="top" secondItem="Q5y-hQ-GkZ" secondAttribute="top" constant="5" id="3CS-dB-XeU"/>
+                        <constraint firstAttribute="bottom" secondItem="z8W-Df-zJw" secondAttribute="bottom" constant="1" id="415-vg-eG6"/>
+                        <constraint firstItem="z8W-Df-zJw" firstAttribute="leading" secondItem="Q5y-hQ-GkZ" secondAttribute="leading" constant="16" id="4vc-Rf-i6e"/>
+                        <constraint firstAttribute="height" constant="95" id="DX7-Cv-AZH"/>
+                        <constraint firstAttribute="trailing" secondItem="z8W-Df-zJw" secondAttribute="trailing" constant="16" id="Qzv-34-Y5w"/>
+                        <constraint firstAttribute="trailing" secondItem="kfu-Fj-ASV" secondAttribute="trailing" constant="16" id="kBj-9Q-6rP"/>
+                        <constraint firstItem="kfu-Fj-ASV" firstAttribute="leading" secondItem="Q5y-hQ-GkZ" secondAttribute="leading" constant="16" id="z0m-1L-WqU"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9LJ-Jj-OOE" userLabel="joinButton">
+                    <rect key="frame" x="16" y="127" width="568" height="46"/>
+                    <color key="backgroundColor" red="0.41568627450000001" green="0.77647058820000003" blue="0.43529411759999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="FCH-aI-khd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="加入会议">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="joinAction:" destination="-1" eventType="touchUpInside" id="e9m-Kc-b6M"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="9LJ-Jj-OOE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="7C8-tm-tqe"/>
+                <constraint firstItem="9LJ-Jj-OOE" firstAttribute="top" secondItem="Q5y-hQ-GkZ" secondAttribute="bottom" constant="16" id="7K0-jQ-l8t"/>
+                <constraint firstItem="Q5y-hQ-GkZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="16" id="HcQ-mE-VgK"/>
+                <constraint firstAttribute="trailing" secondItem="9LJ-Jj-OOE" secondAttribute="trailing" constant="16" id="NAX-xB-WA0"/>
+                <constraint firstItem="Q5y-hQ-GkZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="eza-BS-nXP"/>
+                <constraint firstAttribute="trailing" secondItem="Q5y-hQ-GkZ" secondAttribute="trailing" id="kzl-ut-UNi"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -14,6 +14,7 @@
 #import "HIPQRCodeViewController.h"
 #import "HIPScanViewController.h"
 #import "HIPPhotoScanViewController.h"
+#import "HIPPhotoScanViewController2.h"
 #import "HIPTestViewController.h"
 #import "HIPHeadViewController.h"
 #import "HIPZipViewController.h"
@@ -86,10 +87,11 @@
             [[cell textLabel] setText:@"二维码扫描"];
             break;
         case 5:
-            [[cell textLabel] setText:@"图片二维码扫描"];
+            [[cell textLabel] setText:@"图片二维码扫描ZXing"];
             break;
         case 6:
-            [[cell textLabel] setText:@"头像测试"];
+            [[cell textLabel] setText:@"图片二维码扫描CI"];
+//            [[cell textLabel] setText:@"头像测试"];
             break;
         case 7:
             [[cell textLabel] setText:@"压缩测试"];
@@ -154,8 +156,10 @@
             break;
         }
         case 6: {
-            HIPHeadViewController *headViewController = [[HIPHeadViewController alloc] init];
-            [HIPUtility pushFromViewController:self toViewController:headViewController animated:YES];
+//            HIPHeadViewController *headViewController = [[HIPHeadViewController alloc] init];
+//            [HIPUtility pushFromViewController:self toViewController:headViewController animated:YES];
+            HIPPhotoScanViewController2 *photoScanController = [[HIPPhotoScanViewController2 alloc] init];
+            [HIPUtility pushFromViewController:self toViewController:photoScanController animated:YES];
             break;
         }
         case 7: {

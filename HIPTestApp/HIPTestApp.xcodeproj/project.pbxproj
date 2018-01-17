@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1128E781F3C043700238C65 /* HIPPhotoScanViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = F1128E771F3C043700238C65 /* HIPPhotoScanViewController2.m */; };
+		F130DDC9200EF13800E9D8B7 /* HIPBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F130DDC5200EF13700E9D8B7 /* HIPBubbleView.m */; };
+		F130DDCA200EF13800E9D8B7 /* YKJBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F130DDC6200EF13800E9D8B7 /* YKJBubbleView.m */; };
 		F196C55A1E6FDB17008DF35C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C5591E6FDB17008DF35C /* main.m */; };
 		F196C55D1E6FDB17008DF35C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C55C1E6FDB17008DF35C /* AppDelegate.m */; };
 		F196C5651E6FDB17008DF35C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F196C5641E6FDB17008DF35C /* Assets.xcassets */; };
@@ -40,13 +43,11 @@
 		F196C7921E6FDC72008DF35C /* HIPSvgData.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C5AE1E6FDC71008DF35C /* HIPSvgData.m */; };
 		F196C7931E6FDC72008DF35C /* HIPSvgEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C5B01E6FDC71008DF35C /* HIPSvgEditor.m */; };
 		F196C7941E6FDC72008DF35C /* HIPSvgElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C5B21E6FDC71008DF35C /* HIPSvgElement.m */; };
-		F196C7951E6FDC72008DF35C /* HIPChatBubbleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C5B51E6FDC71008DF35C /* HIPChatBubbleLayer.m */; };
 		F196C7961E6FDC72008DF35C /* HIPColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C5B71E6FDC71008DF35C /* HIPColorViewController.m */; };
 		F196C7971E6FDC72008DF35C /* HIPCusCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C5B91E6FDC71008DF35C /* HIPCusCodeViewController.m */; };
 		F196C7981E6FDC72008DF35C /* HIPDropDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C5BB1E6FDC71008DF35C /* HIPDropDownViewController.m */; };
 		F196C7991E6FDC72008DF35C /* HIPDropRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C5BD1E6FDC71008DF35C /* HIPDropRefreshViewController.m */; };
 		F196C79A1E6FDC72008DF35C /* HIPHeadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C5BF1E6FDC71008DF35C /* HIPHeadViewController.m */; };
-		F196C79B1E6FDC72008DF35C /* HIPImageBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C5C11E6FDC71008DF35C /* HIPImageBubbleView.m */; };
 		F196C79C1E6FDC72008DF35C /* HIPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C5C31E6FDC71008DF35C /* HIPImageView.m */; };
 		F196C79D1E6FDC72008DF35C /* HIPLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C5C51E6FDC71008DF35C /* HIPLayerController.m */; };
 		F196C79E1E6FDC72008DF35C /* HIPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F196C5C71E6FDC71008DF35C /* HIPMainViewController.m */; };
@@ -119,6 +120,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1128E761F3C043700238C65 /* HIPPhotoScanViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPPhotoScanViewController2.h; sourceTree = "<group>"; };
+		F1128E771F3C043700238C65 /* HIPPhotoScanViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPPhotoScanViewController2.m; sourceTree = "<group>"; };
+		F130DDC3200EF13700E9D8B7 /* HIPBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPBubbleView.h; sourceTree = "<group>"; };
+		F130DDC4200EF13700E9D8B7 /* YKJBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKJBubbleView.h; sourceTree = "<group>"; };
+		F130DDC5200EF13700E9D8B7 /* HIPBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPBubbleView.m; sourceTree = "<group>"; };
+		F130DDC6200EF13800E9D8B7 /* YKJBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKJBubbleView.m; sourceTree = "<group>"; };
 		F196C5551E6FDB17008DF35C /* HIPTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIPTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F196C5591E6FDB17008DF35C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F196C55B1E6FDB17008DF35C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -183,8 +190,6 @@
 		F196C5B01E6FDC71008DF35C /* HIPSvgEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPSvgEditor.m; sourceTree = "<group>"; };
 		F196C5B11E6FDC71008DF35C /* HIPSvgElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPSvgElement.h; sourceTree = "<group>"; };
 		F196C5B21E6FDC71008DF35C /* HIPSvgElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPSvgElement.m; sourceTree = "<group>"; };
-		F196C5B41E6FDC71008DF35C /* HIPChatBubbleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPChatBubbleLayer.h; sourceTree = "<group>"; };
-		F196C5B51E6FDC71008DF35C /* HIPChatBubbleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPChatBubbleLayer.m; sourceTree = "<group>"; };
 		F196C5B61E6FDC71008DF35C /* HIPColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPColorViewController.h; sourceTree = "<group>"; };
 		F196C5B71E6FDC71008DF35C /* HIPColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPColorViewController.m; sourceTree = "<group>"; };
 		F196C5B81E6FDC71008DF35C /* HIPCusCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPCusCodeViewController.h; sourceTree = "<group>"; };
@@ -195,8 +200,6 @@
 		F196C5BD1E6FDC71008DF35C /* HIPDropRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPDropRefreshViewController.m; sourceTree = "<group>"; };
 		F196C5BE1E6FDC71008DF35C /* HIPHeadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPHeadViewController.h; sourceTree = "<group>"; };
 		F196C5BF1E6FDC71008DF35C /* HIPHeadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPHeadViewController.m; sourceTree = "<group>"; };
-		F196C5C01E6FDC71008DF35C /* HIPImageBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPImageBubbleView.h; sourceTree = "<group>"; };
-		F196C5C11E6FDC71008DF35C /* HIPImageBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPImageBubbleView.m; sourceTree = "<group>"; };
 		F196C5C21E6FDC71008DF35C /* HIPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPImageView.h; sourceTree = "<group>"; };
 		F196C5C31E6FDC71008DF35C /* HIPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPImageView.m; sourceTree = "<group>"; };
 		F196C5C41E6FDC71008DF35C /* HIPLayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPLayerController.h; sourceTree = "<group>"; };
@@ -656,6 +659,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F130DDC2200E2BE200E9D8B7 /* HIPBubbleView */ = {
+			isa = PBXGroup;
+			children = (
+				F130DDC3200EF13700E9D8B7 /* HIPBubbleView.h */,
+				F130DDC5200EF13700E9D8B7 /* HIPBubbleView.m */,
+				F130DDC4200EF13700E9D8B7 /* YKJBubbleView.h */,
+				F130DDC6200EF13800E9D8B7 /* YKJBubbleView.m */,
+			);
+			path = HIPBubbleView;
+			sourceTree = "<group>";
+		};
 		F196C54C1E6FDB17008DF35C = {
 			isa = PBXGroup;
 			children = (
@@ -765,6 +779,7 @@
 		F196C58F1E6FDC71008DF35C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F130DDC2200E2BE200E9D8B7 /* HIPBubbleView */,
 				F196C5901E6FDC71008DF35C /* HIPNavigationBar */,
 				F196C5931E6FDC71008DF35C /* HIPRefreshView */,
 				F196C5961E6FDC71008DF35C /* HIPScanBoxView */,
@@ -842,9 +857,6 @@
 		F196C5B31E6FDC71008DF35C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F1FE07751EA1C5CD0080D43A /* Tab */,
-				F196C5B41E6FDC71008DF35C /* HIPChatBubbleLayer.h */,
-				F196C5B51E6FDC71008DF35C /* HIPChatBubbleLayer.m */,
 				F196C5B61E6FDC71008DF35C /* HIPColorViewController.h */,
 				F196C5B71E6FDC71008DF35C /* HIPColorViewController.m */,
 				F196C5B81E6FDC71008DF35C /* HIPCusCodeViewController.h */,
@@ -855,8 +867,6 @@
 				F196C5BD1E6FDC71008DF35C /* HIPDropRefreshViewController.m */,
 				F196C5BE1E6FDC71008DF35C /* HIPHeadViewController.h */,
 				F196C5BF1E6FDC71008DF35C /* HIPHeadViewController.m */,
-				F196C5C01E6FDC71008DF35C /* HIPImageBubbleView.h */,
-				F196C5C11E6FDC71008DF35C /* HIPImageBubbleView.m */,
 				F196C5C21E6FDC71008DF35C /* HIPImageView.h */,
 				F196C5C31E6FDC71008DF35C /* HIPImageView.m */,
 				F196C5C41E6FDC71008DF35C /* HIPLayerController.h */,
@@ -865,6 +875,8 @@
 				F196C5C71E6FDC71008DF35C /* HIPMainViewController.m */,
 				F196C5C81E6FDC71008DF35C /* HIPPhotoScanViewController.h */,
 				F196C5C91E6FDC71008DF35C /* HIPPhotoScanViewController.m */,
+				F1128E761F3C043700238C65 /* HIPPhotoScanViewController2.h */,
+				F1128E771F3C043700238C65 /* HIPPhotoScanViewController2.m */,
 				F196C5CA1E6FDC71008DF35C /* HIPPullUpViewController.h */,
 				F196C5CB1E6FDC71008DF35C /* HIPPullUpViewController.m */,
 				F196C5CC1E6FDC71008DF35C /* HIPQRCodeViewController.h */,
@@ -890,6 +902,7 @@
 				F196C5E01E6FDC71008DF35C /* HIPZipViewController.h */,
 				F196C5E11E6FDC71008DF35C /* HIPZipViewController.m */,
 				F196C5E21E6FDC71008DF35C /* HIPZipViewController.xib */,
+				F1FE07751EA1C5CD0080D43A /* Tab */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1440,12 +1453,11 @@
 		F196C54D1E6FDB17008DF35C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "李腾飞";
 				TargetAttributes = {
 					F196C5541E6FDB17008DF35C = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 2XD94V8982;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1492,7 +1504,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F196C7BA1E6FDC72008DF35C /* UIAlertView+AFNetworking.m in Sources */,
-				F196C7951E6FDC72008DF35C /* HIPChatBubbleLayer.m in Sources */,
 				F196C77D1E6FDC72008DF35C /* HIPSvgToolInfo.m in Sources */,
 				F196C7C01E6FDC72008DF35C /* FMDatabase.m in Sources */,
 				F196C7D31E6FDC72008DF35C /* UIView+WebCacheOperation.m in Sources */,
@@ -1504,6 +1515,7 @@
 				F196C7871E6FDC72008DF35C /* HIPRefreshView.m in Sources */,
 				F196C7A61E6FDC72008DF35C /* HIPSvgViewController.m in Sources */,
 				F196C7B01E6FDC72008DF35C /* AFHTTPRequestOperationManager.m in Sources */,
+				F130DDC9200EF13800E9D8B7 /* HIPBubbleView.m in Sources */,
 				F196C7BB1E6FDC72008DF35C /* UIButton+AFNetworking.m in Sources */,
 				F196C7C21E6FDC72008DF35C /* FMDatabasePool.m in Sources */,
 				F196C7A91E6FDC72008DF35C /* HIPTestViewController.m in Sources */,
@@ -1564,8 +1576,10 @@
 				F196C7C41E6FDC72008DF35C /* FMResultSet.m in Sources */,
 				F196C7C31E6FDC72008DF35C /* FMDatabaseQueue.m in Sources */,
 				F196C7811E6FDC72008DF35C /* HIPGZipUtility.m in Sources */,
+				F130DDCA200EF13800E9D8B7 /* YKJBubbleView.m in Sources */,
 				F196C77E1E6FDC72008DF35C /* HIPBaseDBHelper.m in Sources */,
 				F196C78D1E6FDC72008DF35C /* HIPSliderPopover.m in Sources */,
+				F1128E781F3C043700238C65 /* HIPPhotoScanViewController2.m in Sources */,
 				F196C7AF1E6FDC72008DF35C /* AFHTTPRequestOperation.m in Sources */,
 				F196C7B31E6FDC72008DF35C /* AFSecurityPolicy.m in Sources */,
 				F196C7901E6FDC72008DF35C /* HIPSvgBrowser.m in Sources */,
@@ -1575,7 +1589,6 @@
 				F196C7D51E6FDC72008DF35C /* mztools.c in Sources */,
 				F196C7CB1E6FDC72008DF35C /* SDWebImageDownloaderOperation.m in Sources */,
 				F196C7991E6FDC72008DF35C /* HIPDropRefreshViewController.m in Sources */,
-				F196C79B1E6FDC72008DF35C /* HIPImageBubbleView.m in Sources */,
 				F196C7B71E6FDC72008DF35C /* AFURLSessionManager.m in Sources */,
 				F196C7BF1E6FDC72008DF35C /* UIWebView+AFNetworking.m in Sources */,
 				F196C7891E6FDC72008DF35C /* HIPColorPowerSlider.m in Sources */,
@@ -1615,7 +1628,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1623,7 +1638,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1663,7 +1682,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1671,7 +1692,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1700,7 +1725,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2XD94V8982;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HIPTestApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1719,7 +1744,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2XD94V8982;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HIPTestApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

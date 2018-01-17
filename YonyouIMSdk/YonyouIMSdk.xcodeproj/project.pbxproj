@@ -1,0 +1,1517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC06B4D41C589B0600709D67 /* YYIMNetMeetingDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC06B4D31C589B0600709D67 /* YYIMNetMeetingDBHelper.m */; };
+		CC0815F31C7C3B48000FFBB4 /* YYNetMeeting.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0815F01C7C3B48000FFBB4 /* YYNetMeeting.m */; };
+		CC0815F41C7C3B48000FFBB4 /* YYNetMeetingMember.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0815F21C7C3B48000FFBB4 /* YYNetMeetingMember.m */; };
+		CC0815F51C7C3BBC000FFBB4 /* YYNetMeeting.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC0815EF1C7C3B48000FFBB4 /* YYNetMeeting.h */; };
+		CC0815F61C7C3BC2000FFBB4 /* YYNetMeetingMember.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC0815F11C7C3B48000FFBB4 /* YYNetMeetingMember.h */; };
+		CC0815F71C7C3E03000FFBB4 /* YYIMNetMeetingProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC0815EE1C7C3B29000FFBB4 /* YYIMNetMeetingProtocol.h */; };
+		CC09C9091C3CA17300B98BAD /* YYSearchMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = CC09C9081C3CA17300B98BAD /* YYSearchMessage.m */; };
+		CC09C9BF1C3CA74500B98BAD /* YYSearchMessage.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC09C9071C3CA17300B98BAD /* YYSearchMessage.h */; };
+		CC25B4D91D0D724C005B863B /* YYMessageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CC25B4D81D0D724C005B863B /* YYMessageFile.m */; };
+		CC25B4DA1D0D8E41005B863B /* YYMessageFile.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC25B4D71D0D724C005B863B /* YYMessageFile.h */; };
+		CC310F7F1D1A5FD900B074D5 /* YYPubAccountMenu.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC3492291D1A37D600CC7C22 /* YYPubAccountMenu.h */; };
+		CC34922B1D1A37D600CC7C22 /* YYPubAccountMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CC34922A1D1A37D600CC7C22 /* YYPubAccountMenu.m */; };
+		CC3603111CCF43A9009CA364 /* YYNetMeetingHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3603101CCF43A9009CA364 /* YYNetMeetingHistory.m */; };
+		CC3603151CCF4C8B009CA364 /* YYNetMeetingDefine.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC3603121CCF4AAC009CA364 /* YYNetMeetingDefine.h */; };
+		CC3603161CCF4F8B009CA364 /* YYNetMeetingHistory.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC36030F1CCF43A9009CA364 /* YYNetMeetingHistory.h */; };
+		CC71567D1C4F23C9006968BF /* YYIMNetMeetingDelegate.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC7156791C4F208E006968BF /* YYIMNetMeetingDelegate.h */; };
+		CC82FA1F1CF7E0CB00A4E091 /* YMAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC82FA131CF7E0CB00A4E091 /* YMAFHTTPSessionManager.m */; };
+		CC82FA201CF7E0CB00A4E091 /* YMAFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC82FA161CF7E0CB00A4E091 /* YMAFNetworkReachabilityManager.m */; };
+		CC82FA211CF7E0CB00A4E091 /* YMAFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC82FA181CF7E0CB00A4E091 /* YMAFSecurityPolicy.m */; };
+		CC82FA221CF7E0CB00A4E091 /* YMAFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CC82FA1A1CF7E0CB00A4E091 /* YMAFURLRequestSerialization.m */; };
+		CC82FA231CF7E0CB00A4E091 /* YMAFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CC82FA1C1CF7E0CB00A4E091 /* YMAFURLResponseSerialization.m */; };
+		CC82FA241CF7E0CB00A4E091 /* YMAFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC82FA1E1CF7E0CB00A4E091 /* YMAFURLSessionManager.m */; };
+		CC82FA281CF7EB3A00A4E091 /* YMAFHTTPSessionManager.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC82FA121CF7E0CB00A4E091 /* YMAFHTTPSessionManager.h */; };
+		CC82FA291CF7EB3A00A4E091 /* YMAFNetworking.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC82FA141CF7E0CB00A4E091 /* YMAFNetworking.h */; };
+		CC82FA2A1CF7EB3A00A4E091 /* YMAFNetworkReachabilityManager.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC82FA151CF7E0CB00A4E091 /* YMAFNetworkReachabilityManager.h */; };
+		CC82FA2B1CF7EB3A00A4E091 /* YMAFSecurityPolicy.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC82FA171CF7E0CB00A4E091 /* YMAFSecurityPolicy.h */; };
+		CC82FA2C1CF7EB3A00A4E091 /* YMAFURLRequestSerialization.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC82FA191CF7E0CB00A4E091 /* YMAFURLRequestSerialization.h */; };
+		CC82FA2D1CF7EB3A00A4E091 /* YMAFURLResponseSerialization.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC82FA1B1CF7E0CB00A4E091 /* YMAFURLResponseSerialization.h */; };
+		CC82FA2E1CF7EB3A00A4E091 /* YMAFURLSessionManager.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC82FA1D1CF7E0CB00A4E091 /* YMAFURLSessionManager.h */; };
+		CC82FA311CF8206300A4E091 /* YMAFHTTPUploadOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC82FA301CF8206300A4E091 /* YMAFHTTPUploadOperationManager.m */; };
+		CC82FB0D1CF841DE00A4E091 /* YMAFHTTPUploadOperationManager.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC82FA2F1CF8206300A4E091 /* YMAFHTTPUploadOperationManager.h */; };
+		CC86BB401CF4336D00E91362 /* YYNetMeetingCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CC86BB3F1CF4336D00E91362 /* YYNetMeetingCalendarEvent.m */; };
+		CC86BB411CF4370600E91362 /* YYNetMeetingCalendarEvent.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CC86BB3E1CF4336D00E91362 /* YYNetMeetingCalendarEvent.h */; };
+		CCD1F99F1CC8CDC600B96BA8 /* YYNetMeetingDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD1F99E1CC8CDC600B96BA8 /* YYNetMeetingDetail.m */; };
+		CCD1FA011CC8CEBB00B96BA8 /* YYNetMeetingDetail.h in Copy Files */ = {isa = PBXBuildFile; fileRef = CCD1F99D1CC8CDC600B96BA8 /* YYNetMeetingDetail.h */; };
+		CCDDD2AD1CBF8A12006412CB /* AgoraRtcEngineKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDDD2A91CBF8A12006412CB /* AgoraRtcEngineKit.a */; };
+		CCFEC0D31C48D3380049CA25 /* YYIMNetMeetingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFEC0D21C48D3380049CA25 /* YYIMNetMeetingManager.m */; };
+		D40253961B6627760056E8CB /* YYAttach.m in Sources */ = {isa = PBXBuildFile; fileRef = D40253951B6627760056E8CB /* YYAttach.m */; };
+		D40253971B662B1E0056E8CB /* YYAttach.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D40253941B6627760056E8CB /* YYAttach.h */; };
+		D4073A651ADBA27000744165 /* YYPubAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = D4073A641ADBA27000744165 /* YYPubAccount.m */; };
+		D4073A691ADCA1C200744165 /* YYPubAccount.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4073A631ADBA27000744165 /* YYPubAccount.h */; };
+		D4091AF71BD5EF21000F8696 /* YYIMRosterCollectProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D4091AF61BD5EF21000F8696 /* YYIMRosterCollectProvider.m */; };
+		D40B06CA1B3AD3D9001595EF /* YYIMBaseDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D40B06C21B3AD3D9001595EF /* YYIMBaseDBHelper.m */; };
+		D40B06CB1B3AD3D9001595EF /* YYIMChatGroupMemberDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D40B06C41B3AD3D9001595EF /* YYIMChatGroupMemberDBHelper.m */; };
+		D40B06CC1B3AD3D9001595EF /* YYIMDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D40B06C71B3AD3D9001595EF /* YYIMDBHelper.m */; };
+		D40EB3D71B41203200286DC4 /* YYObjExtProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D40EB3D61B411FE300286DC4 /* YYObjExtProtocol.h */; };
+		D41B9A6D1C9911060057B21E /* YYChatGroupInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D41B9A6C1C9911060057B21E /* YYChatGroupInfo.m */; };
+		D41B9A6E1C991CDD0057B21E /* YYChatGroupInfo.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D41B9A6B1C9911060057B21E /* YYChatGroupInfo.h */; };
+		D41B9B5D1CA134D40057B21E /* YYNetMeetingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D41B9B5C1CA134D40057B21E /* YYNetMeetingInfo.m */; };
+		D41B9B5E1CA136C60057B21E /* YYNetMeetingInfo.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D41B9B5B1CA134D40057B21E /* YYNetMeetingInfo.h */; };
+		D42145221AD6466600BA2304 /* YYUserExt.m in Sources */ = {isa = PBXBuildFile; fileRef = D42145211AD6466500BA2304 /* YYUserExt.m */; };
+		D42145251AD6467A00BA2304 /* YYChatGroupExt.m in Sources */ = {isa = PBXBuildFile; fileRef = D42145241AD6467A00BA2304 /* YYChatGroupExt.m */; };
+		D42145261AD6491D00BA2304 /* YYUserExt.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D42145201AD6466500BA2304 /* YYUserExt.h */; };
+		D42145271AD6492800BA2304 /* YYChatGroupExt.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D42145231AD6467A00BA2304 /* YYChatGroupExt.h */; };
+		D427E6B51AA6EA8C007157AE /* YYToken.m in Sources */ = {isa = PBXBuildFile; fileRef = D427E6B41AA6EA8C007157AE /* YYToken.m */; };
+		D427E6B61AA6ECCE007157AE /* YYToken.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D427E6B31AA6EA8C007157AE /* YYToken.h */; };
+		D42AD6AA1B31A13C000B3C99 /* YYIMFirstLetterHelper.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D43623881A8995960061EA07 /* YYIMFirstLetterHelper.h */; };
+		D436251B1A8995970061EA07 /* YYChatGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D43623241A8995960061EA07 /* YYChatGroup.m */; };
+		D436251C1A8995970061EA07 /* YYChatGroupMember.m in Sources */ = {isa = PBXBuildFile; fileRef = D43623261A8995960061EA07 /* YYChatGroupMember.m */; };
+		D436251E1A8995970061EA07 /* YYMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D436232A1A8995960061EA07 /* YYMessage.m */; };
+		D436251F1A8995970061EA07 /* YYMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = D436232C1A8995960061EA07 /* YYMessageContent.m */; };
+		D43625201A8995970061EA07 /* YYRecentMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D436232E1A8995960061EA07 /* YYRecentMessage.m */; };
+		D43625211A8995970061EA07 /* YYRoster.m in Sources */ = {isa = PBXBuildFile; fileRef = D43623301A8995960061EA07 /* YYRoster.m */; };
+		D43625231A8995970061EA07 /* YYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D43623341A8995960061EA07 /* YYUser.m */; };
+		D436252D1A8995970061EA07 /* YYIMHttpUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D43623531A8995960061EA07 /* YYIMHttpUtility.m */; };
+		D436252F1A8995970061EA07 /* YYIMResourceUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D43623571A8995960061EA07 /* YYIMResourceUtility.m */; };
+		D43625301A8995970061EA07 /* YYIMStringUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D43623591A8995960061EA07 /* YYIMStringUtility.m */; };
+		D43625321A8995970061EA07 /* YYIMJUMPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D436235D1A8995960061EA07 /* YYIMJUMPHelper.m */; };
+		D436253C1A8995970061EA07 /* YYFMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D43623751A8995960061EA07 /* YYFMDatabase.m */; };
+		D436253D1A8995970061EA07 /* YYFMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D43623771A8995960061EA07 /* YYFMDatabaseAdditions.m */; };
+		D436253E1A8995970061EA07 /* YYFMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D43623791A8995960061EA07 /* YYFMDatabasePool.m */; };
+		D436253F1A8995970061EA07 /* YYFMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D436237B1A8995960061EA07 /* YYFMDatabaseQueue.m */; };
+		D43625401A8995970061EA07 /* YYFMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D436237E1A8995960061EA07 /* YYFMResultSet.m */; };
+		D43625421A8995970061EA07 /* YYIMFirstLetterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D43623891A8995960061EA07 /* YYIMFirstLetterHelper.m */; };
+		D43625431A8995970061EA07 /* YMAmrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = D436238D1A8995960061EA07 /* YMAmrFileCodec.mm */; };
+		D43625441A8995970061EA07 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = D436238F1A8995960061EA07 /* wav.mm */; };
+		D43625471A8995970061EA07 /* YMVoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = D436239A1A8995960061EA07 /* YMVoiceConverter.mm */; };
+		D43625E11A899D000061EA07 /* YYChatGroup.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D43623231A8995960061EA07 /* YYChatGroup.h */; };
+		D43625E21A899D000061EA07 /* YYChatGroupMember.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D43623251A8995960061EA07 /* YYChatGroupMember.h */; };
+		D43625E41A899D000061EA07 /* YYMessage.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D43623291A8995960061EA07 /* YYMessage.h */; };
+		D43625E51A899D000061EA07 /* YYMessageContent.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D436232B1A8995960061EA07 /* YYMessageContent.h */; };
+		D43625E61A899D000061EA07 /* YYRecentMessage.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D436232D1A8995960061EA07 /* YYRecentMessage.h */; };
+		D43625E71A899D000061EA07 /* YYRoster.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D436232F1A8995960061EA07 /* YYRoster.h */; };
+		D43625E91A899D000061EA07 /* YYUser.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D43623331A8995960061EA07 /* YYUser.h */; };
+		D43625F81A899D000061EA07 /* YYIMDefs.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D436234D1A8995960061EA07 /* YYIMDefs.h */; };
+		D43890B61AEF685A0031765A /* JUMPIQ.m in Sources */ = {isa = PBXBuildFile; fileRef = D43890B51AEF685A0031765A /* JUMPIQ.m */; };
+		D43890B91AEF6DF10031765A /* JUMPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D43890B81AEF6DF10031765A /* JUMPMessage.m */; };
+		D43890BC1AEF782C0031765A /* JUMPModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D43890BB1AEF782C0031765A /* JUMPModule.m */; };
+		D43890C11AEF811F0031765A /* JUMPParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D43890C01AEF811F0031765A /* JUMPParser.m */; };
+		D43890C41AEF86350031765A /* JUMPIDTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = D43890C31AEF86350031765A /* JUMPIDTracker.m */; };
+		D43890CA1AF072080031765A /* JUMPSRVResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = D43890C91AF072080031765A /* JUMPSRVResolver.m */; };
+		D43890CE1AF0AA2C0031765A /* JUMPAnonymousAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = D43890CD1AF0AA2C0031765A /* JUMPAnonymousAuthentication.m */; };
+		D43890E81AF1C0F10031765A /* JUMPTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D43890E71AF1C0F10031765A /* JUMPTimer.m */; };
+		D45A5B2F1B4B5A99005726D0 /* YYIMPanDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D45A5B2E1B4B5A99005726D0 /* YYIMPanDBHelper.m */; };
+		D45E221A1B1456AA00C326E9 /* YYSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = D45E22191B1456AA00C326E9 /* YYSettings.m */; };
+		D45E22211B14570800C326E9 /* YYSettings.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D45E22181B1456AA00C326E9 /* YYSettings.h */; };
+		D45E24591AF8C4E000B1528B /* JUMPHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D45E24581AF8C4E000B1528B /* JUMPHeader.m */; };
+		D46328B11A89D3320019258C /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D43623911A8995960061EA07 /* libopencore-amrnb.a */; };
+		D46328B21A89D3320019258C /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D43623921A8995960061EA07 /* libopencore-amrwb.a */; };
+		D4632A761A89E9ED0019258C /* YYIMResourceUtility.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D43623561A8995960061EA07 /* YYIMResourceUtility.h */; };
+		D47044131D3773E900BE48AC /* YYIMExtDelegate.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D47044121D37736100BE48AC /* YYIMExtDelegate.h */; };
+		D482983A1BA7C3BB00AD5F7A /* YYIMChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D48298391BA7C3BB00AD5F7A /* YYIMChatManager.m */; };
+		D48298471BA7C42900AD5F7A /* YYIMError.m in Sources */ = {isa = PBXBuildFile; fileRef = D48298421BA7C42900AD5F7A /* YYIMError.m */; };
+		D48298481BA7C42900AD5F7A /* YYIMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D48298441BA7C42900AD5F7A /* YYIMLogger.m */; };
+		D48298981BA7C6F300AD5F7A /* YMGCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D482984C1BA7C6F300AD5F7A /* YMGCDAsyncSocket.m */; };
+		D48298991BA7C6F300AD5F7A /* YMDDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D482984F1BA7C6F300AD5F7A /* YMDDAbstractDatabaseLogger.m */; };
+		D482989A1BA7C6F300AD5F7A /* YMDDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D48298511BA7C6F300AD5F7A /* YMDDASLLogger.m */; };
+		D482989B1BA7C6F300AD5F7A /* YMDDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D48298531BA7C6F300AD5F7A /* YMDDFileLogger.m */; };
+		D482989C1BA7C6F300AD5F7A /* YMDDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D48298561BA7C6F300AD5F7A /* YMDDLog.m */; };
+		D482989D1BA7C6F300AD5F7A /* YMDDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D48298581BA7C6F300AD5F7A /* YMDDTTYLogger.m */; };
+		D482989E1BA7C6F300AD5F7A /* YMDDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D482985B1BA7C6F300AD5F7A /* YMDDContextFilterLogFormatter.m */; };
+		D482989F1BA7C6F300AD5F7A /* YMDDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D482985D1BA7C6F300AD5F7A /* YMDDDispatchQueueLogFormatter.m */; };
+		D48298A01BA7C6F300AD5F7A /* YMDDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D482985F1BA7C6F300AD5F7A /* YMDDMultiFormatter.m */; };
+		D48298A61BA7C6F300AD5F7A /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D48298701BA7C6F300AD5F7A /* libidn.a */; };
+		D488C1BD1C5EE9EC00C35C70 /* YYIMGZipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D488C1BC1C5EE9EC00C35C70 /* YYIMGZipUtility.m */; };
+		D4A0D2BE1B1C48C9001DC70E /* JUMPError.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A0D2BD1B1C48C9001DC70E /* JUMPError.m */; };
+		D4A0D2C51B1C510E001DC70E /* JUMPReconnect.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A0D2C01B1C510E001DC70E /* JUMPReconnect.m */; };
+		D4A0D2C61B1C510E001DC70E /* JUMPAutoPing.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A0D2C21B1C510E001DC70E /* JUMPAutoPing.m */; };
+		D4A0D2C71B1C510E001DC70E /* JUMPPing.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A0D2C41B1C510E001DC70E /* JUMPPing.m */; };
+		D4A0D2CE1B1D3C0D001DC70E /* JUMPOPTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A0D2CD1B1D3C0D001DC70E /* JUMPOPTracker.m */; };
+		D4AAAD031C8FFC10000FFF12 /* YYIMMessageVersionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AAAD021C8FFC10000FFF12 /* YYIMMessageVersionHelper.m */; };
+		D4AD25C81AEDDB6F00EF7498 /* JUMPPlainAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AD25C71AEDDB6F00EF7498 /* JUMPPlainAuthentication.m */; };
+		D4AD25CB1AEDDC1800EF7498 /* JUMPStream.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AD25CA1AEDDC1800EF7498 /* JUMPStream.m */; };
+		D4AD25F01AEDE08700EF7498 /* JUMPJID.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AD25EF1AEDE08700EF7498 /* JUMPJID.m */; };
+		D4AD25F41AEDE18C00EF7498 /* YMGCDMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AD25F31AEDE18C00EF7498 /* YMGCDMulticastDelegate.m */; };
+		D4AD25F71AEDE1C600EF7498 /* JUMPStringPrep.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AD25F61AEDE1C600EF7498 /* JUMPStringPrep.m */; };
+		D4AD25FA1AEE011900EF7498 /* JUMPPresence.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AD25F91AEE011900EF7498 /* JUMPPresence.m */; };
+		D4AD25FD1AEE02D800EF7498 /* JUMPPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AD25FC1AEE02D800EF7498 /* JUMPPacket.m */; };
+		D4C00D661ADD32A60028A31C /* YYPubAccountExt.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C00D651ADD32A60028A31C /* YYPubAccountExt.m */; };
+		D4C00D671ADD36340028A31C /* YYPubAccountExt.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4C00D641ADD32A60028A31C /* YYPubAccountExt.h */; };
+		D4CE4D041BAFC5B60025DB2E /* YYIMBaseDataManager.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5C3E1BA8335F008A773F /* YYIMBaseDataManager.h */; };
+		D4F075D11C2CE25000E9A49C /* YYIMChatGroupVersionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F075D01C2CE25000E9A49C /* YYIMChatGroupVersionProvider.m */; };
+		D4FB5BAF1BA7F5DE008A773F /* YYIMError.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D48298411BA7C42900AD5F7A /* YYIMError.h */; };
+		D4FB5BB01BA7F5DE008A773F /* YYIMLogger.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D48298431BA7C42900AD5F7A /* YYIMLogger.h */; };
+		D4FB5BB11BA7F5DE008A773F /* YYIMChatManager.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D48298381BA7C3BB00AD5F7A /* YYIMChatManager.h */; };
+		D4FB5BF71BA81854008A773F /* YYIMChatGroupProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5BC91BA81854008A773F /* YYIMChatGroupProvider.m */; };
+		D4FB5BF81BA81854008A773F /* YYIMExtManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5BCB1BA81854008A773F /* YYIMExtManager.m */; };
+		D4FB5BF91BA81854008A773F /* YYIMMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5BCD1BA81854008A773F /* YYIMMessageManager.m */; };
+		D4FB5BFA1BA81854008A773F /* YYIMNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5BCF1BA81854008A773F /* YYIMNotificationManager.m */; };
+		D4FB5BFD1BA81854008A773F /* YYIMPubAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5BD51BA81854008A773F /* YYIMPubAccountManager.m */; };
+		D4FB5BFE1BA81854008A773F /* YYIMRosterProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5BD71BA81854008A773F /* YYIMRosterProvider.m */; };
+		D4FB5BFF1BA81854008A773F /* YYIMTeleconferenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5BD91BA81854008A773F /* YYIMTeleconferenceManager.m */; };
+		D4FB5C101BA826E4008A773F /* YYIMChat.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5C0D1BA826E4008A773F /* YYIMChat.m */; };
+		D4FB5C111BA826E4008A773F /* YYIMConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5C0F1BA826E4008A773F /* YYIMConfig.m */; };
+		D4FB5C461BA8335F008A773F /* YYIMAttachManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5C3D1BA8335F008A773F /* YYIMAttachManager.m */; };
+		D4FB5C471BA8335F008A773F /* YYIMBaseDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5C3F1BA8335F008A773F /* YYIMBaseDataManager.m */; };
+		D4FB5C481BA8335F008A773F /* YYIMConnectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5C411BA8335F008A773F /* YYIMConnectManager.m */; };
+		D4FB5C491BA8335F008A773F /* YYIMLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5C431BA8335F008A773F /* YYIMLoginManager.m */; };
+		D4FB5C4A1BA8335F008A773F /* YYIMUserProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB5C451BA8335F008A773F /* YYIMUserProvider.m */; };
+		D4FB5C4E1BA83B42008A773F /* YYIMChat.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5C0C1BA826E4008A773F /* YYIMChat.h */; };
+		D4FB5C4F1BA83B42008A773F /* YYIMConfig.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5C0E1BA826E4008A773F /* YYIMConfig.h */; };
+		D4FB5C501BA83B51008A773F /* YYIMChatDelegate.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BB61BA814AA008A773F /* YYIMChatDelegate.h */; };
+		D4FB5C511BA83B51008A773F /* YYIMChatGroupDelegate.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BB71BA814AA008A773F /* YYIMChatGroupDelegate.h */; };
+		D4FB5C521BA83B51008A773F /* YYIMMessageDelegate.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BB81BA814AA008A773F /* YYIMMessageDelegate.h */; };
+		D4FB5C531BA83B51008A773F /* YYIMNotificationDelegate.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BB91BA814AA008A773F /* YYIMNotificationDelegate.h */; };
+		D4FB5C561BA83B51008A773F /* YYIMPubAccountDelegate.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BBC1BA814AA008A773F /* YYIMPubAccountDelegate.h */; };
+		D4FB5C571BA83B51008A773F /* YYIMRosterDelegate.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BBD1BA814AA008A773F /* YYIMRosterDelegate.h */; };
+		D4FB5C581BA83B51008A773F /* YYIMTeleconferenceDelegate.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BBE1BA814AA008A773F /* YYIMTeleconferenceDelegate.h */; };
+		D4FB5C591BA83B51008A773F /* YYIMUserDelegate.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BBF1BA814AA008A773F /* YYIMUserDelegate.h */; };
+		D4FB5C5A1BA83B51008A773F /* YYIMAttachProgressDelegate.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BC11BA814AA008A773F /* YYIMAttachProgressDelegate.h */; };
+		D4FB5C5B1BA83B51008A773F /* YYIMLoginDelegate.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BC21BA814AA008A773F /* YYIMLoginDelegate.h */; };
+		D4FB5C5C1BA83B51008A773F /* YYIMTokenDelegate.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BC31BA814AA008A773F /* YYIMTokenDelegate.h */; };
+		D4FB5C631BA83B9D008A773F /* YYIMChatHeader.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5C0B1BA826D6008A773F /* YYIMChatHeader.h */; };
+		D4FB5C671BA83B9D008A773F /* YYIMChatGroupProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BDA1BA81854008A773F /* YYIMChatGroupProtocol.h */; };
+		D4FB5C681BA83B9D008A773F /* YYIMAttachProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BF01BA81854008A773F /* YYIMAttachProtocol.h */; };
+		D4FB5C691BA83B9D008A773F /* YYIMBaseProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BF11BA81854008A773F /* YYIMBaseProtocol.h */; };
+		D4FB5C6A1BA83B9D008A773F /* YYIMConnectProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BF21BA81854008A773F /* YYIMConnectProtocol.h */; };
+		D4FB5C6B1BA83B9D008A773F /* YYIMLoginProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BF31BA81854008A773F /* YYIMLoginProtocol.h */; };
+		D4FB5C6C1BA83B9D008A773F /* YYIMTokenProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BF41BA81854008A773F /* YYIMTokenProtocol.h */; };
+		D4FB5C6D1BA83B9D008A773F /* YYIMUserProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BF51BA81854008A773F /* YYIMUserProtocol.h */; };
+		D4FB5C6E1BA83B9D008A773F /* YYIMChatProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BDB1BA81854008A773F /* YYIMChatProtocol.h */; };
+		D4FB5C6F1BA83B9D008A773F /* YYIMExtProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BDC1BA81854008A773F /* YYIMExtProtocol.h */; };
+		D4FB5C701BA83B9D008A773F /* YYIMMessageProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BDD1BA81854008A773F /* YYIMMessageProtocol.h */; };
+		D4FB5C711BA83B9D008A773F /* YYIMNotificationProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BDE1BA81854008A773F /* YYIMNotificationProtocol.h */; };
+		D4FB5C741BA83B9D008A773F /* YYIMPubAccountProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BE11BA81854008A773F /* YYIMPubAccountProtocol.h */; };
+		D4FB5C751BA83B9D008A773F /* YYIMRosterProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BE21BA81854008A773F /* YYIMRosterProtocol.h */; };
+		D4FB5C761BA83B9D008A773F /* YYIMTeleconferenceProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = D4FB5BE31BA81854008A773F /* YYIMTeleconferenceProtocol.h */; };
+		F11DE4841ECDBF9D0088F947 /* YYFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F11DE4831ECDBF9D0088F947 /* YYFile.m */; };
+		F11DE4851ECDC0230088F947 /* YYFile.h in Copy Files */ = {isa = PBXBuildFile; fileRef = F11DE4821ECDBF9D0088F947 /* YYFile.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D43622EF1A8995350061EA07 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F11DE4851ECDC0230088F947 /* YYFile.h in Copy Files */,
+				D47044131D3773E900BE48AC /* YYIMExtDelegate.h in Copy Files */,
+				CC310F7F1D1A5FD900B074D5 /* YYPubAccountMenu.h in Copy Files */,
+				CC25B4DA1D0D8E41005B863B /* YYMessageFile.h in Copy Files */,
+				CC82FB0D1CF841DE00A4E091 /* YMAFHTTPUploadOperationManager.h in Copy Files */,
+				CC82FA281CF7EB3A00A4E091 /* YMAFHTTPSessionManager.h in Copy Files */,
+				CC82FA291CF7EB3A00A4E091 /* YMAFNetworking.h in Copy Files */,
+				CC82FA2A1CF7EB3A00A4E091 /* YMAFNetworkReachabilityManager.h in Copy Files */,
+				CC82FA2B1CF7EB3A00A4E091 /* YMAFSecurityPolicy.h in Copy Files */,
+				CC82FA2C1CF7EB3A00A4E091 /* YMAFURLRequestSerialization.h in Copy Files */,
+				CC82FA2D1CF7EB3A00A4E091 /* YMAFURLResponseSerialization.h in Copy Files */,
+				CC82FA2E1CF7EB3A00A4E091 /* YMAFURLSessionManager.h in Copy Files */,
+				CC86BB411CF4370600E91362 /* YYNetMeetingCalendarEvent.h in Copy Files */,
+				CC3603161CCF4F8B009CA364 /* YYNetMeetingHistory.h in Copy Files */,
+				CC3603151CCF4C8B009CA364 /* YYNetMeetingDefine.h in Copy Files */,
+				CCD1FA011CC8CEBB00B96BA8 /* YYNetMeetingDetail.h in Copy Files */,
+				D41B9B5E1CA136C60057B21E /* YYNetMeetingInfo.h in Copy Files */,
+				CC0815F71C7C3E03000FFBB4 /* YYIMNetMeetingProtocol.h in Copy Files */,
+				CC0815F61C7C3BC2000FFBB4 /* YYNetMeetingMember.h in Copy Files */,
+				CC0815F51C7C3BBC000FFBB4 /* YYNetMeeting.h in Copy Files */,
+				CC71567D1C4F23C9006968BF /* YYIMNetMeetingDelegate.h in Copy Files */,
+				D41B9A6E1C991CDD0057B21E /* YYChatGroupInfo.h in Copy Files */,
+				CC09C9BF1C3CA74500B98BAD /* YYSearchMessage.h in Copy Files */,
+				D4CE4D041BAFC5B60025DB2E /* YYIMBaseDataManager.h in Copy Files */,
+				D4FB5C631BA83B9D008A773F /* YYIMChatHeader.h in Copy Files */,
+				D4FB5C671BA83B9D008A773F /* YYIMChatGroupProtocol.h in Copy Files */,
+				D4FB5C681BA83B9D008A773F /* YYIMAttachProtocol.h in Copy Files */,
+				D4FB5C691BA83B9D008A773F /* YYIMBaseProtocol.h in Copy Files */,
+				D4FB5C6A1BA83B9D008A773F /* YYIMConnectProtocol.h in Copy Files */,
+				D4FB5C6B1BA83B9D008A773F /* YYIMLoginProtocol.h in Copy Files */,
+				D4FB5C6C1BA83B9D008A773F /* YYIMTokenProtocol.h in Copy Files */,
+				D4FB5C6D1BA83B9D008A773F /* YYIMUserProtocol.h in Copy Files */,
+				D4FB5C6E1BA83B9D008A773F /* YYIMChatProtocol.h in Copy Files */,
+				D4FB5C6F1BA83B9D008A773F /* YYIMExtProtocol.h in Copy Files */,
+				D4FB5C701BA83B9D008A773F /* YYIMMessageProtocol.h in Copy Files */,
+				D4FB5C711BA83B9D008A773F /* YYIMNotificationProtocol.h in Copy Files */,
+				D4FB5C741BA83B9D008A773F /* YYIMPubAccountProtocol.h in Copy Files */,
+				D4FB5C751BA83B9D008A773F /* YYIMRosterProtocol.h in Copy Files */,
+				D4FB5C761BA83B9D008A773F /* YYIMTeleconferenceProtocol.h in Copy Files */,
+				D4FB5C501BA83B51008A773F /* YYIMChatDelegate.h in Copy Files */,
+				D4FB5C511BA83B51008A773F /* YYIMChatGroupDelegate.h in Copy Files */,
+				D4FB5C521BA83B51008A773F /* YYIMMessageDelegate.h in Copy Files */,
+				D4FB5C531BA83B51008A773F /* YYIMNotificationDelegate.h in Copy Files */,
+				D4FB5C561BA83B51008A773F /* YYIMPubAccountDelegate.h in Copy Files */,
+				D4FB5C571BA83B51008A773F /* YYIMRosterDelegate.h in Copy Files */,
+				D4FB5C581BA83B51008A773F /* YYIMTeleconferenceDelegate.h in Copy Files */,
+				D4FB5C591BA83B51008A773F /* YYIMUserDelegate.h in Copy Files */,
+				D4FB5C5A1BA83B51008A773F /* YYIMAttachProgressDelegate.h in Copy Files */,
+				D4FB5C5B1BA83B51008A773F /* YYIMLoginDelegate.h in Copy Files */,
+				D4FB5C5C1BA83B51008A773F /* YYIMTokenDelegate.h in Copy Files */,
+				D4FB5C4E1BA83B42008A773F /* YYIMChat.h in Copy Files */,
+				D4FB5C4F1BA83B42008A773F /* YYIMConfig.h in Copy Files */,
+				D4FB5BAF1BA7F5DE008A773F /* YYIMError.h in Copy Files */,
+				D4FB5BB01BA7F5DE008A773F /* YYIMLogger.h in Copy Files */,
+				D4FB5BB11BA7F5DE008A773F /* YYIMChatManager.h in Copy Files */,
+				D40253971B662B1E0056E8CB /* YYAttach.h in Copy Files */,
+				D40EB3D71B41203200286DC4 /* YYObjExtProtocol.h in Copy Files */,
+				D42AD6AA1B31A13C000B3C99 /* YYIMFirstLetterHelper.h in Copy Files */,
+				D45E22211B14570800C326E9 /* YYSettings.h in Copy Files */,
+				D4C00D671ADD36340028A31C /* YYPubAccountExt.h in Copy Files */,
+				D4073A691ADCA1C200744165 /* YYPubAccount.h in Copy Files */,
+				D42145271AD6492800BA2304 /* YYChatGroupExt.h in Copy Files */,
+				D42145261AD6491D00BA2304 /* YYUserExt.h in Copy Files */,
+				D427E6B61AA6ECCE007157AE /* YYToken.h in Copy Files */,
+				D4632A761A89E9ED0019258C /* YYIMResourceUtility.h in Copy Files */,
+				D43625E11A899D000061EA07 /* YYChatGroup.h in Copy Files */,
+				D43625E21A899D000061EA07 /* YYChatGroupMember.h in Copy Files */,
+				D43625E41A899D000061EA07 /* YYMessage.h in Copy Files */,
+				D43625E51A899D000061EA07 /* YYMessageContent.h in Copy Files */,
+				D43625E61A899D000061EA07 /* YYRecentMessage.h in Copy Files */,
+				D43625E71A899D000061EA07 /* YYRoster.h in Copy Files */,
+				D43625E91A899D000061EA07 /* YYUser.h in Copy Files */,
+				D43625F81A899D000061EA07 /* YYIMDefs.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC06B4D21C589B0600709D67 /* YYIMNetMeetingDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMNetMeetingDBHelper.h; sourceTree = "<group>"; };
+		CC06B4D31C589B0600709D67 /* YYIMNetMeetingDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMNetMeetingDBHelper.m; sourceTree = "<group>"; };
+		CC0815EE1C7C3B29000FFBB4 /* YYIMNetMeetingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMNetMeetingProtocol.h; sourceTree = "<group>"; };
+		CC0815EF1C7C3B48000FFBB4 /* YYNetMeeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNetMeeting.h; sourceTree = "<group>"; };
+		CC0815F01C7C3B48000FFBB4 /* YYNetMeeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNetMeeting.m; sourceTree = "<group>"; };
+		CC0815F11C7C3B48000FFBB4 /* YYNetMeetingMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNetMeetingMember.h; sourceTree = "<group>"; };
+		CC0815F21C7C3B48000FFBB4 /* YYNetMeetingMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNetMeetingMember.m; sourceTree = "<group>"; };
+		CC09C9071C3CA17300B98BAD /* YYSearchMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSearchMessage.h; sourceTree = "<group>"; };
+		CC09C9081C3CA17300B98BAD /* YYSearchMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSearchMessage.m; sourceTree = "<group>"; };
+		CC25B4D71D0D724C005B863B /* YYMessageFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMessageFile.h; sourceTree = "<group>"; };
+		CC25B4D81D0D724C005B863B /* YYMessageFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMessageFile.m; sourceTree = "<group>"; };
+		CC3492291D1A37D600CC7C22 /* YYPubAccountMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPubAccountMenu.h; sourceTree = "<group>"; };
+		CC34922A1D1A37D600CC7C22 /* YYPubAccountMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPubAccountMenu.m; sourceTree = "<group>"; };
+		CC36030F1CCF43A9009CA364 /* YYNetMeetingHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNetMeetingHistory.h; sourceTree = "<group>"; };
+		CC3603101CCF43A9009CA364 /* YYNetMeetingHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNetMeetingHistory.m; sourceTree = "<group>"; };
+		CC3603121CCF4AAC009CA364 /* YYNetMeetingDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNetMeetingDefine.h; sourceTree = "<group>"; };
+		CC7156791C4F208E006968BF /* YYIMNetMeetingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMNetMeetingDelegate.h; sourceTree = "<group>"; };
+		CC82FA121CF7E0CB00A4E091 /* YMAFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CC82FA131CF7E0CB00A4E091 /* YMAFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CC82FA141CF7E0CB00A4E091 /* YMAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAFNetworking.h; sourceTree = "<group>"; };
+		CC82FA151CF7E0CB00A4E091 /* YMAFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CC82FA161CF7E0CB00A4E091 /* YMAFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CC82FA171CF7E0CB00A4E091 /* YMAFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAFSecurityPolicy.h; sourceTree = "<group>"; };
+		CC82FA181CF7E0CB00A4E091 /* YMAFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAFSecurityPolicy.m; sourceTree = "<group>"; };
+		CC82FA191CF7E0CB00A4E091 /* YMAFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CC82FA1A1CF7E0CB00A4E091 /* YMAFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CC82FA1B1CF7E0CB00A4E091 /* YMAFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CC82FA1C1CF7E0CB00A4E091 /* YMAFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CC82FA1D1CF7E0CB00A4E091 /* YMAFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAFURLSessionManager.h; sourceTree = "<group>"; };
+		CC82FA1E1CF7E0CB00A4E091 /* YMAFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAFURLSessionManager.m; sourceTree = "<group>"; };
+		CC82FA2F1CF8206300A4E091 /* YMAFHTTPUploadOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAFHTTPUploadOperationManager.h; sourceTree = "<group>"; };
+		CC82FA301CF8206300A4E091 /* YMAFHTTPUploadOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAFHTTPUploadOperationManager.m; sourceTree = "<group>"; };
+		CC86BB3E1CF4336D00E91362 /* YYNetMeetingCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNetMeetingCalendarEvent.h; sourceTree = "<group>"; };
+		CC86BB3F1CF4336D00E91362 /* YYNetMeetingCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNetMeetingCalendarEvent.m; sourceTree = "<group>"; };
+		CCD1F99D1CC8CDC600B96BA8 /* YYNetMeetingDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNetMeetingDetail.h; sourceTree = "<group>"; };
+		CCD1F99E1CC8CDC600B96BA8 /* YYNetMeetingDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNetMeetingDetail.m; sourceTree = "<group>"; };
+		CCDDD2A91CBF8A12006412CB /* AgoraRtcEngineKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AgoraRtcEngineKit.a; sourceTree = "<group>"; };
+		CCDDD2AB1CBF8A12006412CB /* AgoraRtcEngineKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgoraRtcEngineKit.h; sourceTree = "<group>"; };
+		CCDDD2AC1CBF8A12006412CB /* IAgoraRtcEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAgoraRtcEngine.h; sourceTree = "<group>"; };
+		CCFEC0D11C48D3380049CA25 /* YYIMNetMeetingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMNetMeetingManager.h; sourceTree = "<group>"; };
+		CCFEC0D21C48D3380049CA25 /* YYIMNetMeetingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMNetMeetingManager.m; sourceTree = "<group>"; };
+		D40253941B6627760056E8CB /* YYAttach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAttach.h; sourceTree = "<group>"; };
+		D40253951B6627760056E8CB /* YYAttach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAttach.m; sourceTree = "<group>"; };
+		D4032EA41B58A16F00783752 /* JUMPLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPLogging.h; sourceTree = "<group>"; };
+		D4073A631ADBA27000744165 /* YYPubAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPubAccount.h; sourceTree = "<group>"; };
+		D4073A641ADBA27000744165 /* YYPubAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPubAccount.m; sourceTree = "<group>"; };
+		D4091AF51BD5EF21000F8696 /* YYIMRosterCollectProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMRosterCollectProvider.h; sourceTree = "<group>"; };
+		D4091AF61BD5EF21000F8696 /* YYIMRosterCollectProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMRosterCollectProvider.m; sourceTree = "<group>"; };
+		D40B06C11B3AD3D9001595EF /* YYIMBaseDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMBaseDBHelper.h; sourceTree = "<group>"; };
+		D40B06C21B3AD3D9001595EF /* YYIMBaseDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMBaseDBHelper.m; sourceTree = "<group>"; };
+		D40B06C31B3AD3D9001595EF /* YYIMChatGroupMemberDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMChatGroupMemberDBHelper.h; sourceTree = "<group>"; };
+		D40B06C41B3AD3D9001595EF /* YYIMChatGroupMemberDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMChatGroupMemberDBHelper.m; sourceTree = "<group>"; };
+		D40B06C51B3AD3D9001595EF /* YYIMDBHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMDBHeader.h; sourceTree = "<group>"; };
+		D40B06C61B3AD3D9001595EF /* YYIMDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMDBHelper.h; sourceTree = "<group>"; };
+		D40B06C71B3AD3D9001595EF /* YYIMDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMDBHelper.m; sourceTree = "<group>"; };
+		D40EB3D61B411FE300286DC4 /* YYObjExtProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYObjExtProtocol.h; sourceTree = "<group>"; };
+		D41B9A6B1C9911060057B21E /* YYChatGroupInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYChatGroupInfo.h; sourceTree = "<group>"; };
+		D41B9A6C1C9911060057B21E /* YYChatGroupInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYChatGroupInfo.m; sourceTree = "<group>"; };
+		D41B9B5B1CA134D40057B21E /* YYNetMeetingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNetMeetingInfo.h; sourceTree = "<group>"; };
+		D41B9B5C1CA134D40057B21E /* YYNetMeetingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNetMeetingInfo.m; sourceTree = "<group>"; };
+		D42145201AD6466500BA2304 /* YYUserExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYUserExt.h; sourceTree = "<group>"; };
+		D42145211AD6466500BA2304 /* YYUserExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYUserExt.m; sourceTree = "<group>"; };
+		D42145231AD6467A00BA2304 /* YYChatGroupExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYChatGroupExt.h; sourceTree = "<group>"; };
+		D42145241AD6467A00BA2304 /* YYChatGroupExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYChatGroupExt.m; sourceTree = "<group>"; };
+		D427E6B31AA6EA8C007157AE /* YYToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYToken.h; sourceTree = "<group>"; };
+		D427E6B41AA6EA8C007157AE /* YYToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYToken.m; sourceTree = "<group>"; };
+		D43622F11A8995350061EA07 /* libYonyouIMSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYonyouIMSdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43623231A8995960061EA07 /* YYChatGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYChatGroup.h; sourceTree = "<group>"; };
+		D43623241A8995960061EA07 /* YYChatGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYChatGroup.m; sourceTree = "<group>"; };
+		D43623251A8995960061EA07 /* YYChatGroupMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYChatGroupMember.h; sourceTree = "<group>"; };
+		D43623261A8995960061EA07 /* YYChatGroupMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYChatGroupMember.m; sourceTree = "<group>"; };
+		D43623291A8995960061EA07 /* YYMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMessage.h; sourceTree = "<group>"; };
+		D436232A1A8995960061EA07 /* YYMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMessage.m; sourceTree = "<group>"; };
+		D436232B1A8995960061EA07 /* YYMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMessageContent.h; sourceTree = "<group>"; };
+		D436232C1A8995960061EA07 /* YYMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMessageContent.m; sourceTree = "<group>"; };
+		D436232D1A8995960061EA07 /* YYRecentMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYRecentMessage.h; sourceTree = "<group>"; };
+		D436232E1A8995960061EA07 /* YYRecentMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYRecentMessage.m; sourceTree = "<group>"; };
+		D436232F1A8995960061EA07 /* YYRoster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYRoster.h; sourceTree = "<group>"; };
+		D43623301A8995960061EA07 /* YYRoster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYRoster.m; sourceTree = "<group>"; };
+		D43623331A8995960061EA07 /* YYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYUser.h; sourceTree = "<group>"; };
+		D43623341A8995960061EA07 /* YYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYUser.m; sourceTree = "<group>"; };
+		D436234D1A8995960061EA07 /* YYIMDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMDefs.h; sourceTree = "<group>"; };
+		D43623521A8995960061EA07 /* YYIMHttpUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMHttpUtility.h; sourceTree = "<group>"; };
+		D43623531A8995960061EA07 /* YYIMHttpUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMHttpUtility.m; sourceTree = "<group>"; };
+		D43623561A8995960061EA07 /* YYIMResourceUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMResourceUtility.h; sourceTree = "<group>"; };
+		D43623571A8995960061EA07 /* YYIMResourceUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMResourceUtility.m; sourceTree = "<group>"; };
+		D43623581A8995960061EA07 /* YYIMStringUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMStringUtility.h; sourceTree = "<group>"; };
+		D43623591A8995960061EA07 /* YYIMStringUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMStringUtility.m; sourceTree = "<group>"; };
+		D436235C1A8995960061EA07 /* YYIMJUMPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMJUMPHelper.h; sourceTree = "<group>"; };
+		D436235D1A8995960061EA07 /* YYIMJUMPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMJUMPHelper.m; sourceTree = "<group>"; };
+		D43623741A8995960061EA07 /* YYFMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFMDatabase.h; sourceTree = "<group>"; };
+		D43623751A8995960061EA07 /* YYFMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFMDatabase.m; sourceTree = "<group>"; };
+		D43623761A8995960061EA07 /* YYFMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFMDatabaseAdditions.h; sourceTree = "<group>"; };
+		D43623771A8995960061EA07 /* YYFMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFMDatabaseAdditions.m; sourceTree = "<group>"; };
+		D43623781A8995960061EA07 /* YYFMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFMDatabasePool.h; sourceTree = "<group>"; };
+		D43623791A8995960061EA07 /* YYFMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFMDatabasePool.m; sourceTree = "<group>"; };
+		D436237A1A8995960061EA07 /* YYFMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFMDatabaseQueue.h; sourceTree = "<group>"; };
+		D436237B1A8995960061EA07 /* YYFMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFMDatabaseQueue.m; sourceTree = "<group>"; };
+		D436237C1A8995960061EA07 /* YYFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFMDB.h; sourceTree = "<group>"; };
+		D436237D1A8995960061EA07 /* YYFMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFMResultSet.h; sourceTree = "<group>"; };
+		D436237E1A8995960061EA07 /* YYFMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFMResultSet.m; sourceTree = "<group>"; };
+		D43623881A8995960061EA07 /* YYIMFirstLetterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMFirstLetterHelper.h; sourceTree = "<group>"; };
+		D43623891A8995960061EA07 /* YYIMFirstLetterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMFirstLetterHelper.m; sourceTree = "<group>"; };
+		D436238C1A8995960061EA07 /* YMAmrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAmrFileCodec.h; sourceTree = "<group>"; };
+		D436238D1A8995960061EA07 /* YMAmrFileCodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YMAmrFileCodec.mm; sourceTree = "<group>"; };
+		D436238E1A8995960061EA07 /* wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		D436238F1A8995960061EA07 /* wav.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
+		D43623911A8995960061EA07 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		D43623921A8995960061EA07 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		D43623941A8995960061EA07 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		D43623951A8995960061EA07 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		D43623971A8995960061EA07 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		D43623981A8995960061EA07 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		D43623991A8995960061EA07 /* YMVoiceConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMVoiceConverter.h; sourceTree = "<group>"; };
+		D436239A1A8995960061EA07 /* YMVoiceConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YMVoiceConverter.mm; sourceTree = "<group>"; };
+		D43890B41AEF685A0031765A /* JUMPIQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPIQ.h; sourceTree = "<group>"; };
+		D43890B51AEF685A0031765A /* JUMPIQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPIQ.m; sourceTree = "<group>"; };
+		D43890B71AEF6DF10031765A /* JUMPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPMessage.h; sourceTree = "<group>"; };
+		D43890B81AEF6DF10031765A /* JUMPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPMessage.m; sourceTree = "<group>"; };
+		D43890BA1AEF782C0031765A /* JUMPModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = JUMPModule.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D43890BB1AEF782C0031765A /* JUMPModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = JUMPModule.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D43890BD1AEF7F380031765A /* JUMPCustomBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPCustomBinding.h; sourceTree = "<group>"; };
+		D43890BE1AEF80320031765A /* JUMPInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JUMPInternal.h; sourceTree = "<group>"; };
+		D43890BF1AEF811F0031765A /* JUMPParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPParser.h; sourceTree = "<group>"; };
+		D43890C01AEF811F0031765A /* JUMPParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPParser.m; sourceTree = "<group>"; };
+		D43890C21AEF86350031765A /* JUMPIDTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPIDTracker.h; sourceTree = "<group>"; };
+		D43890C31AEF86350031765A /* JUMPIDTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPIDTracker.m; sourceTree = "<group>"; };
+		D43890C81AF072080031765A /* JUMPSRVResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPSRVResolver.h; sourceTree = "<group>"; };
+		D43890C91AF072080031765A /* JUMPSRVResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPSRVResolver.m; sourceTree = "<group>"; };
+		D43890CC1AF0AA2C0031765A /* JUMPAnonymousAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPAnonymousAuthentication.h; sourceTree = "<group>"; };
+		D43890CD1AF0AA2C0031765A /* JUMPAnonymousAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPAnonymousAuthentication.m; sourceTree = "<group>"; };
+		D43890E61AF1C0F10031765A /* JUMPTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPTimer.h; sourceTree = "<group>"; };
+		D43890E71AF1C0F10031765A /* JUMPTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPTimer.m; sourceTree = "<group>"; };
+		D45A5B2D1B4B5A99005726D0 /* YYIMPanDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMPanDBHelper.h; sourceTree = "<group>"; };
+		D45A5B2E1B4B5A99005726D0 /* YYIMPanDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMPanDBHelper.m; sourceTree = "<group>"; };
+		D45E22181B1456AA00C326E9 /* YYSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSettings.h; sourceTree = "<group>"; };
+		D45E22191B1456AA00C326E9 /* YYSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSettings.m; sourceTree = "<group>"; };
+		D45E24571AF8C4E000B1528B /* JUMPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPHeader.h; sourceTree = "<group>"; };
+		D45E24581AF8C4E000B1528B /* JUMPHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPHeader.m; sourceTree = "<group>"; };
+		D47044121D37736100BE48AC /* YYIMExtDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMExtDelegate.h; sourceTree = "<group>"; };
+		D48298381BA7C3BB00AD5F7A /* YYIMChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMChatManager.h; sourceTree = "<group>"; };
+		D48298391BA7C3BB00AD5F7A /* YYIMChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = YYIMChatManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D48298411BA7C42900AD5F7A /* YYIMError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMError.h; sourceTree = "<group>"; };
+		D48298421BA7C42900AD5F7A /* YYIMError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMError.m; sourceTree = "<group>"; };
+		D48298431BA7C42900AD5F7A /* YYIMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMLogger.h; sourceTree = "<group>"; };
+		D48298441BA7C42900AD5F7A /* YYIMLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMLogger.m; sourceTree = "<group>"; };
+		D482984B1BA7C6F300AD5F7A /* YMGCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMGCDAsyncSocket.h; sourceTree = "<group>"; };
+		D482984C1BA7C6F300AD5F7A /* YMGCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMGCDAsyncSocket.m; sourceTree = "<group>"; };
+		D482984E1BA7C6F300AD5F7A /* YMDDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		D482984F1BA7C6F300AD5F7A /* YMDDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		D48298501BA7C6F300AD5F7A /* YMDDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDDASLLogger.h; sourceTree = "<group>"; };
+		D48298511BA7C6F300AD5F7A /* YMDDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDDASLLogger.m; sourceTree = "<group>"; };
+		D48298521BA7C6F300AD5F7A /* YMDDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDDFileLogger.h; sourceTree = "<group>"; };
+		D48298531BA7C6F300AD5F7A /* YMDDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDDFileLogger.m; sourceTree = "<group>"; };
+		D48298541BA7C6F300AD5F7A /* YMDDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YMDDLog+LOGV.h"; sourceTree = "<group>"; };
+		D48298551BA7C6F300AD5F7A /* YMDDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDDLog.h; sourceTree = "<group>"; };
+		D48298561BA7C6F300AD5F7A /* YMDDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDDLog.m; sourceTree = "<group>"; };
+		D48298571BA7C6F300AD5F7A /* YMDDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDDTTYLogger.h; sourceTree = "<group>"; };
+		D48298581BA7C6F300AD5F7A /* YMDDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDDTTYLogger.m; sourceTree = "<group>"; };
+		D482985A1BA7C6F300AD5F7A /* YMDDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		D482985B1BA7C6F300AD5F7A /* YMDDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		D482985C1BA7C6F300AD5F7A /* YMDDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		D482985D1BA7C6F300AD5F7A /* YMDDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		D482985E1BA7C6F300AD5F7A /* YMDDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDDMultiFormatter.h; sourceTree = "<group>"; };
+		D482985F1BA7C6F300AD5F7A /* YMDDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDDMultiFormatter.m; sourceTree = "<group>"; };
+		D48298601BA7C6F300AD5F7A /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		D482986E1BA7C6F300AD5F7A /* build-libidn.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "build-libidn.sh"; sourceTree = "<group>"; };
+		D482986F1BA7C6F300AD5F7A /* idn-int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "idn-int.h"; sourceTree = "<group>"; };
+		D48298701BA7C6F300AD5F7A /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
+		D48298711BA7C6F300AD5F7A /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
+		D488C1BB1C5EE9EC00C35C70 /* YYIMGZipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMGZipUtility.h; sourceTree = "<group>"; };
+		D488C1BC1C5EE9EC00C35C70 /* YYIMGZipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMGZipUtility.m; sourceTree = "<group>"; };
+		D4A0D2BC1B1C48C9001DC70E /* JUMPError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPError.h; sourceTree = "<group>"; };
+		D4A0D2BD1B1C48C9001DC70E /* JUMPError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPError.m; sourceTree = "<group>"; };
+		D4A0D2BF1B1C510E001DC70E /* JUMPReconnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPReconnect.h; sourceTree = "<group>"; };
+		D4A0D2C01B1C510E001DC70E /* JUMPReconnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = JUMPReconnect.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D4A0D2C11B1C510E001DC70E /* JUMPAutoPing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPAutoPing.h; sourceTree = "<group>"; };
+		D4A0D2C21B1C510E001DC70E /* JUMPAutoPing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPAutoPing.m; sourceTree = "<group>"; };
+		D4A0D2C31B1C510E001DC70E /* JUMPPing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPPing.h; sourceTree = "<group>"; };
+		D4A0D2C41B1C510E001DC70E /* JUMPPing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPPing.m; sourceTree = "<group>"; };
+		D4A0D2CC1B1D3C0D001DC70E /* JUMPOPTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPOPTracker.h; sourceTree = "<group>"; };
+		D4A0D2CD1B1D3C0D001DC70E /* JUMPOPTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPOPTracker.m; sourceTree = "<group>"; };
+		D4AAAD011C8FFC10000FFF12 /* YYIMMessageVersionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMMessageVersionHelper.h; sourceTree = "<group>"; };
+		D4AAAD021C8FFC10000FFF12 /* YYIMMessageVersionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMMessageVersionHelper.m; sourceTree = "<group>"; };
+		D4AD25C01AEDD65500EF7498 /* JUMPFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JUMPFramework.h; sourceTree = "<group>"; };
+		D4AD25C31AEDDAB200EF7498 /* JUMPSASLAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPSASLAuthentication.h; sourceTree = "<group>"; };
+		D4AD25C61AEDDB6F00EF7498 /* JUMPPlainAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPPlainAuthentication.h; sourceTree = "<group>"; };
+		D4AD25C71AEDDB6F00EF7498 /* JUMPPlainAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPPlainAuthentication.m; sourceTree = "<group>"; };
+		D4AD25C91AEDDC1800EF7498 /* JUMPStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = JUMPStream.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D4AD25CA1AEDDC1800EF7498 /* JUMPStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = JUMPStream.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D4AD25EE1AEDE08700EF7498 /* JUMPJID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPJID.h; sourceTree = "<group>"; };
+		D4AD25EF1AEDE08700EF7498 /* JUMPJID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPJID.m; sourceTree = "<group>"; };
+		D4AD25F21AEDE18C00EF7498 /* YMGCDMulticastDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = YMGCDMulticastDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D4AD25F31AEDE18C00EF7498 /* YMGCDMulticastDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = YMGCDMulticastDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D4AD25F51AEDE1C600EF7498 /* JUMPStringPrep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPStringPrep.h; sourceTree = "<group>"; };
+		D4AD25F61AEDE1C600EF7498 /* JUMPStringPrep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPStringPrep.m; sourceTree = "<group>"; };
+		D4AD25F81AEE011900EF7498 /* JUMPPresence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPPresence.h; sourceTree = "<group>"; };
+		D4AD25F91AEE011900EF7498 /* JUMPPresence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPPresence.m; sourceTree = "<group>"; };
+		D4AD25FB1AEE02D800EF7498 /* JUMPPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMPPacket.h; sourceTree = "<group>"; };
+		D4AD25FC1AEE02D800EF7498 /* JUMPPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUMPPacket.m; sourceTree = "<group>"; };
+		D4C00D641ADD32A60028A31C /* YYPubAccountExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPubAccountExt.h; sourceTree = "<group>"; };
+		D4C00D651ADD32A60028A31C /* YYPubAccountExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPubAccountExt.m; sourceTree = "<group>"; };
+		D4F075CF1C2CE25000E9A49C /* YYIMChatGroupVersionProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMChatGroupVersionProvider.h; sourceTree = "<group>"; };
+		D4F075D01C2CE25000E9A49C /* YYIMChatGroupVersionProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMChatGroupVersionProvider.m; sourceTree = "<group>"; };
+		D4FB5BB61BA814AA008A773F /* YYIMChatDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMChatDelegate.h; sourceTree = "<group>"; };
+		D4FB5BB71BA814AA008A773F /* YYIMChatGroupDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMChatGroupDelegate.h; sourceTree = "<group>"; };
+		D4FB5BB81BA814AA008A773F /* YYIMMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMMessageDelegate.h; sourceTree = "<group>"; };
+		D4FB5BB91BA814AA008A773F /* YYIMNotificationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMNotificationDelegate.h; sourceTree = "<group>"; };
+		D4FB5BBC1BA814AA008A773F /* YYIMPubAccountDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMPubAccountDelegate.h; sourceTree = "<group>"; };
+		D4FB5BBD1BA814AA008A773F /* YYIMRosterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMRosterDelegate.h; sourceTree = "<group>"; };
+		D4FB5BBE1BA814AA008A773F /* YYIMTeleconferenceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMTeleconferenceDelegate.h; sourceTree = "<group>"; };
+		D4FB5BBF1BA814AA008A773F /* YYIMUserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMUserDelegate.h; sourceTree = "<group>"; };
+		D4FB5BC11BA814AA008A773F /* YYIMAttachProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMAttachProgressDelegate.h; sourceTree = "<group>"; };
+		D4FB5BC21BA814AA008A773F /* YYIMLoginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMLoginDelegate.h; sourceTree = "<group>"; };
+		D4FB5BC31BA814AA008A773F /* YYIMTokenDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMTokenDelegate.h; sourceTree = "<group>"; };
+		D4FB5BC81BA81854008A773F /* YYIMChatGroupProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMChatGroupProvider.h; sourceTree = "<group>"; };
+		D4FB5BC91BA81854008A773F /* YYIMChatGroupProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMChatGroupProvider.m; sourceTree = "<group>"; };
+		D4FB5BCA1BA81854008A773F /* YYIMExtManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMExtManager.h; sourceTree = "<group>"; };
+		D4FB5BCB1BA81854008A773F /* YYIMExtManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMExtManager.m; sourceTree = "<group>"; };
+		D4FB5BCC1BA81854008A773F /* YYIMMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMMessageManager.h; sourceTree = "<group>"; };
+		D4FB5BCD1BA81854008A773F /* YYIMMessageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMMessageManager.m; sourceTree = "<group>"; };
+		D4FB5BCE1BA81854008A773F /* YYIMNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMNotificationManager.h; sourceTree = "<group>"; };
+		D4FB5BCF1BA81854008A773F /* YYIMNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = YYIMNotificationManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D4FB5BD41BA81854008A773F /* YYIMPubAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMPubAccountManager.h; sourceTree = "<group>"; };
+		D4FB5BD51BA81854008A773F /* YYIMPubAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMPubAccountManager.m; sourceTree = "<group>"; };
+		D4FB5BD61BA81854008A773F /* YYIMRosterProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMRosterProvider.h; sourceTree = "<group>"; };
+		D4FB5BD71BA81854008A773F /* YYIMRosterProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMRosterProvider.m; sourceTree = "<group>"; };
+		D4FB5BD81BA81854008A773F /* YYIMTeleconferenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMTeleconferenceManager.h; sourceTree = "<group>"; };
+		D4FB5BD91BA81854008A773F /* YYIMTeleconferenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = YYIMTeleconferenceManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D4FB5BDA1BA81854008A773F /* YYIMChatGroupProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMChatGroupProtocol.h; sourceTree = "<group>"; };
+		D4FB5BDB1BA81854008A773F /* YYIMChatProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMChatProtocol.h; sourceTree = "<group>"; };
+		D4FB5BDC1BA81854008A773F /* YYIMExtProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMExtProtocol.h; sourceTree = "<group>"; };
+		D4FB5BDD1BA81854008A773F /* YYIMMessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMMessageProtocol.h; sourceTree = "<group>"; };
+		D4FB5BDE1BA81854008A773F /* YYIMNotificationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMNotificationProtocol.h; sourceTree = "<group>"; };
+		D4FB5BE11BA81854008A773F /* YYIMPubAccountProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMPubAccountProtocol.h; sourceTree = "<group>"; };
+		D4FB5BE21BA81854008A773F /* YYIMRosterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMRosterProtocol.h; sourceTree = "<group>"; };
+		D4FB5BE31BA81854008A773F /* YYIMTeleconferenceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMTeleconferenceProtocol.h; sourceTree = "<group>"; };
+		D4FB5BF01BA81854008A773F /* YYIMAttachProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMAttachProtocol.h; sourceTree = "<group>"; };
+		D4FB5BF11BA81854008A773F /* YYIMBaseProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMBaseProtocol.h; sourceTree = "<group>"; };
+		D4FB5BF21BA81854008A773F /* YYIMConnectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMConnectProtocol.h; sourceTree = "<group>"; };
+		D4FB5BF31BA81854008A773F /* YYIMLoginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMLoginProtocol.h; sourceTree = "<group>"; };
+		D4FB5BF41BA81854008A773F /* YYIMTokenProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMTokenProtocol.h; sourceTree = "<group>"; };
+		D4FB5BF51BA81854008A773F /* YYIMUserProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMUserProtocol.h; sourceTree = "<group>"; };
+		D4FB5C0B1BA826D6008A773F /* YYIMChatHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMChatHeader.h; sourceTree = "<group>"; };
+		D4FB5C0C1BA826E4008A773F /* YYIMChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMChat.h; sourceTree = "<group>"; };
+		D4FB5C0D1BA826E4008A773F /* YYIMChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMChat.m; sourceTree = "<group>"; };
+		D4FB5C0E1BA826E4008A773F /* YYIMConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMConfig.h; sourceTree = "<group>"; };
+		D4FB5C0F1BA826E4008A773F /* YYIMConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMConfig.m; sourceTree = "<group>"; };
+		D4FB5C3C1BA8335F008A773F /* YYIMAttachManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMAttachManager.h; sourceTree = "<group>"; };
+		D4FB5C3D1BA8335F008A773F /* YYIMAttachManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = YYIMAttachManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D4FB5C3E1BA8335F008A773F /* YYIMBaseDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = YYIMBaseDataManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D4FB5C3F1BA8335F008A773F /* YYIMBaseDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = YYIMBaseDataManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D4FB5C401BA8335F008A773F /* YYIMConnectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMConnectManager.h; sourceTree = "<group>"; };
+		D4FB5C411BA8335F008A773F /* YYIMConnectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMConnectManager.m; sourceTree = "<group>"; };
+		D4FB5C421BA8335F008A773F /* YYIMLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMLoginManager.h; sourceTree = "<group>"; };
+		D4FB5C431BA8335F008A773F /* YYIMLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMLoginManager.m; sourceTree = "<group>"; };
+		D4FB5C441BA8335F008A773F /* YYIMUserProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYIMUserProvider.h; sourceTree = "<group>"; };
+		D4FB5C451BA8335F008A773F /* YYIMUserProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYIMUserProvider.m; sourceTree = "<group>"; };
+		F11DE4821ECDBF9D0088F947 /* YYFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFile.h; sourceTree = "<group>"; };
+		F11DE4831ECDBF9D0088F947 /* YYFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D43622EE1A8995350061EA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48298A61BA7C6F300AD5F7A /* libidn.a in Frameworks */,
+				D46328B11A89D3320019258C /* libopencore-amrnb.a in Frameworks */,
+				D46328B21A89D3320019258C /* libopencore-amrwb.a in Frameworks */,
+				CCDDD2AD1CBF8A12006412CB /* AgoraRtcEngineKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC06B4CB1C58620500709D67 /* NetMeeting */ = {
+			isa = PBXGroup;
+			children = (
+				CC0815EF1C7C3B48000FFBB4 /* YYNetMeeting.h */,
+				CC0815F01C7C3B48000FFBB4 /* YYNetMeeting.m */,
+				CC86BB3E1CF4336D00E91362 /* YYNetMeetingCalendarEvent.h */,
+				CC86BB3F1CF4336D00E91362 /* YYNetMeetingCalendarEvent.m */,
+				CC3603121CCF4AAC009CA364 /* YYNetMeetingDefine.h */,
+				CCD1F99D1CC8CDC600B96BA8 /* YYNetMeetingDetail.h */,
+				CCD1F99E1CC8CDC600B96BA8 /* YYNetMeetingDetail.m */,
+				CC36030F1CCF43A9009CA364 /* YYNetMeetingHistory.h */,
+				CC3603101CCF43A9009CA364 /* YYNetMeetingHistory.m */,
+				D41B9B5B1CA134D40057B21E /* YYNetMeetingInfo.h */,
+				D41B9B5C1CA134D40057B21E /* YYNetMeetingInfo.m */,
+				CC0815F11C7C3B48000FFBB4 /* YYNetMeetingMember.h */,
+				CC0815F21C7C3B48000FFBB4 /* YYNetMeetingMember.m */,
+			);
+			name = NetMeeting;
+			sourceTree = "<group>";
+		};
+		CC82FA111CF7E0CB00A4E091 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CC82FA121CF7E0CB00A4E091 /* YMAFHTTPSessionManager.h */,
+				CC82FA131CF7E0CB00A4E091 /* YMAFHTTPSessionManager.m */,
+				CC82FA141CF7E0CB00A4E091 /* YMAFNetworking.h */,
+				CC82FA151CF7E0CB00A4E091 /* YMAFNetworkReachabilityManager.h */,
+				CC82FA161CF7E0CB00A4E091 /* YMAFNetworkReachabilityManager.m */,
+				CC82FA171CF7E0CB00A4E091 /* YMAFSecurityPolicy.h */,
+				CC82FA181CF7E0CB00A4E091 /* YMAFSecurityPolicy.m */,
+				CC82FA191CF7E0CB00A4E091 /* YMAFURLRequestSerialization.h */,
+				CC82FA1A1CF7E0CB00A4E091 /* YMAFURLRequestSerialization.m */,
+				CC82FA1B1CF7E0CB00A4E091 /* YMAFURLResponseSerialization.h */,
+				CC82FA1C1CF7E0CB00A4E091 /* YMAFURLResponseSerialization.m */,
+				CC82FA1D1CF7E0CB00A4E091 /* YMAFURLSessionManager.h */,
+				CC82FA1E1CF7E0CB00A4E091 /* YMAFURLSessionManager.m */,
+				CC82FA2F1CF8206300A4E091 /* YMAFHTTPUploadOperationManager.h */,
+				CC82FA301CF8206300A4E091 /* YMAFHTTPUploadOperationManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		CCDDD2A81CBF8A12006412CB /* Agora */ = {
+			isa = PBXGroup;
+			children = (
+				CCDDD2A91CBF8A12006412CB /* AgoraRtcEngineKit.a */,
+				CCDDD2AA1CBF8A12006412CB /* Headers */,
+			);
+			path = Agora;
+			sourceTree = "<group>";
+		};
+		CCDDD2AA1CBF8A12006412CB /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				CCDDD2AB1CBF8A12006412CB /* AgoraRtcEngineKit.h */,
+				CCDDD2AC1CBF8A12006412CB /* IAgoraRtcEngine.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		D40B06C01B3AD341001595EF /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				D40B06C51B3AD3D9001595EF /* YYIMDBHeader.h */,
+				D40B06C11B3AD3D9001595EF /* YYIMBaseDBHelper.h */,
+				D40B06C21B3AD3D9001595EF /* YYIMBaseDBHelper.m */,
+				D40B06C31B3AD3D9001595EF /* YYIMChatGroupMemberDBHelper.h */,
+				D40B06C41B3AD3D9001595EF /* YYIMChatGroupMemberDBHelper.m */,
+				D40B06C61B3AD3D9001595EF /* YYIMDBHelper.h */,
+				D40B06C71B3AD3D9001595EF /* YYIMDBHelper.m */,
+				D45A5B2D1B4B5A99005726D0 /* YYIMPanDBHelper.h */,
+				D45A5B2E1B4B5A99005726D0 /* YYIMPanDBHelper.m */,
+				CC06B4D21C589B0600709D67 /* YYIMNetMeetingDBHelper.h */,
+				CC06B4D31C589B0600709D67 /* YYIMNetMeetingDBHelper.m */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		D40EB3D51B411F7C00286DC4 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				D42145231AD6467A00BA2304 /* YYChatGroupExt.h */,
+				D42145241AD6467A00BA2304 /* YYChatGroupExt.m */,
+				D4C00D641ADD32A60028A31C /* YYPubAccountExt.h */,
+				D4C00D651ADD32A60028A31C /* YYPubAccountExt.m */,
+				D42145201AD6466500BA2304 /* YYUserExt.h */,
+				D42145211AD6466500BA2304 /* YYUserExt.m */,
+				D40EB3D61B411FE300286DC4 /* YYObjExtProtocol.h */,
+			);
+			name = Ext;
+			sourceTree = "<group>";
+		};
+		D43622E81A8995350061EA07 = {
+			isa = PBXGroup;
+			children = (
+				D43622F31A8995350061EA07 /* YonyouIMSdk */,
+				D43622F21A8995350061EA07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D43622F21A8995350061EA07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D43622F11A8995350061EA07 /* libYonyouIMSdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D43622F31A8995350061EA07 /* YonyouIMSdk */ = {
+			isa = PBXGroup;
+			children = (
+				D48298491BA7C46500AD5F7A /* Core */,
+				D436231A1A8995960061EA07 /* Delegate */,
+				D43623221A8995960061EA07 /* Entity */,
+				D4AD25BE1AEDCCE600EF7498 /* JUMP */,
+				D48298331BA7C37000AD5F7A /* Module */,
+				D43623351A8995960061EA07 /* Protocol */,
+				D40B06C01B3AD341001595EF /* DB */,
+				D436234A1A8995960061EA07 /* Utility */,
+				D436235E1A8995960061EA07 /* Vender */,
+			);
+			path = YonyouIMSdk;
+			sourceTree = "<group>";
+		};
+		D436231A1A8995960061EA07 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D4FB5BB51BA814AA008A773F /* Chat */,
+				D4FB5BC01BA814AA008A773F /* Core */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		D43623221A8995960061EA07 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D4FB5C061BA81991008A773F /* ChatGroup */,
+				D4FB5C0A1BA819F6008A773F /* Core */,
+				D40EB3D51B411F7C00286DC4 /* Ext */,
+				F11DE4811ECDBF7C0088F947 /* File */,
+				D4FB5C051BA81977008A773F /* Message */,
+				CC06B4CB1C58620500709D67 /* NetMeeting */,
+				D4FB5C071BA819A8008A773F /* PubAccount */,
+				D4FB5C081BA819CD008A773F /* Roster */,
+				D4FB5C091BA819DB008A773F /* User */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		D43623351A8995960061EA07 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D4FB5BC61BA81854008A773F /* Chat */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D436234A1A8995960061EA07 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D436234D1A8995960061EA07 /* YYIMDefs.h */,
+				D43623881A8995960061EA07 /* YYIMFirstLetterHelper.h */,
+				D43623891A8995960061EA07 /* YYIMFirstLetterHelper.m */,
+				D488C1BB1C5EE9EC00C35C70 /* YYIMGZipUtility.h */,
+				D488C1BC1C5EE9EC00C35C70 /* YYIMGZipUtility.m */,
+				D43623521A8995960061EA07 /* YYIMHttpUtility.h */,
+				D43623531A8995960061EA07 /* YYIMHttpUtility.m */,
+				D436235C1A8995960061EA07 /* YYIMJUMPHelper.h */,
+				D436235D1A8995960061EA07 /* YYIMJUMPHelper.m */,
+				D43623561A8995960061EA07 /* YYIMResourceUtility.h */,
+				D43623571A8995960061EA07 /* YYIMResourceUtility.m */,
+				D43623581A8995960061EA07 /* YYIMStringUtility.h */,
+				D43623591A8995960061EA07 /* YYIMStringUtility.m */,
+				D4AAAD011C8FFC10000FFF12 /* YYIMMessageVersionHelper.h */,
+				D4AAAD021C8FFC10000FFF12 /* YYIMMessageVersionHelper.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D436235E1A8995960061EA07 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				CC82FA111CF7E0CB00A4E091 /* AFNetworking */,
+				CCDDD2A81CBF8A12006412CB /* Agora */,
+				D482984A1BA7C6F300AD5F7A /* AsyncSocket */,
+				D43623731A8995960061EA07 /* fmdb */,
+				D482986D1BA7C6F300AD5F7A /* libidn */,
+				D482984D1BA7C6F300AD5F7A /* Lumberjack */,
+				D436238A1A8995960061EA07 /* VoiceConvert */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		D43623731A8995960061EA07 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				D43623741A8995960061EA07 /* YYFMDatabase.h */,
+				D43623751A8995960061EA07 /* YYFMDatabase.m */,
+				D43623761A8995960061EA07 /* YYFMDatabaseAdditions.h */,
+				D43623771A8995960061EA07 /* YYFMDatabaseAdditions.m */,
+				D43623781A8995960061EA07 /* YYFMDatabasePool.h */,
+				D43623791A8995960061EA07 /* YYFMDatabasePool.m */,
+				D436237A1A8995960061EA07 /* YYFMDatabaseQueue.h */,
+				D436237B1A8995960061EA07 /* YYFMDatabaseQueue.m */,
+				D436237C1A8995960061EA07 /* YYFMDB.h */,
+				D436237D1A8995960061EA07 /* YYFMResultSet.h */,
+				D436237E1A8995960061EA07 /* YYFMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		D436238A1A8995960061EA07 /* VoiceConvert */ = {
+			isa = PBXGroup;
+			children = (
+				D436238B1A8995960061EA07 /* amrwapper */,
+				D43623901A8995960061EA07 /* lib */,
+				D43623931A8995960061EA07 /* opencore-amrnb */,
+				D43623961A8995960061EA07 /* opencore-amrwb */,
+				D43623991A8995960061EA07 /* YMVoiceConverter.h */,
+				D436239A1A8995960061EA07 /* YMVoiceConverter.mm */,
+			);
+			path = VoiceConvert;
+			sourceTree = "<group>";
+		};
+		D436238B1A8995960061EA07 /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				D436238C1A8995960061EA07 /* YMAmrFileCodec.h */,
+				D436238D1A8995960061EA07 /* YMAmrFileCodec.mm */,
+				D436238E1A8995960061EA07 /* wav.h */,
+				D436238F1A8995960061EA07 /* wav.mm */,
+			);
+			path = amrwapper;
+			sourceTree = "<group>";
+		};
+		D43623901A8995960061EA07 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D43623911A8995960061EA07 /* libopencore-amrnb.a */,
+				D43623921A8995960061EA07 /* libopencore-amrwb.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		D43623931A8995960061EA07 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				D43623941A8995960061EA07 /* interf_dec.h */,
+				D43623951A8995960061EA07 /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		D43623961A8995960061EA07 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				D43623971A8995960061EA07 /* dec_if.h */,
+				D43623981A8995960061EA07 /* if_rom.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		D43890CB1AF0A9F70031765A /* Anonymous */ = {
+			isa = PBXGroup;
+			children = (
+				D43890CC1AF0AA2C0031765A /* JUMPAnonymousAuthentication.h */,
+				D43890CD1AF0AA2C0031765A /* JUMPAnonymousAuthentication.m */,
+			);
+			path = Anonymous;
+			sourceTree = "<group>";
+		};
+		D43890D01AF0D38A0031765A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D4A0D2BF1B1C510E001DC70E /* JUMPReconnect.h */,
+				D4A0D2C01B1C510E001DC70E /* JUMPReconnect.m */,
+				D4A0D2C11B1C510E001DC70E /* JUMPAutoPing.h */,
+				D4A0D2C21B1C510E001DC70E /* JUMPAutoPing.m */,
+				D4A0D2C31B1C510E001DC70E /* JUMPPing.h */,
+				D4A0D2C41B1C510E001DC70E /* JUMPPing.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D48298331BA7C37000AD5F7A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				D48298341BA7C37000AD5F7A /* Chat */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		D48298341BA7C37000AD5F7A /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				D4FB5C0B1BA826D6008A773F /* YYIMChatHeader.h */,
+				D48298381BA7C3BB00AD5F7A /* YYIMChatManager.h */,
+				D48298391BA7C3BB00AD5F7A /* YYIMChatManager.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		D48298491BA7C46500AD5F7A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D4FB5C0C1BA826E4008A773F /* YYIMChat.h */,
+				D4FB5C0D1BA826E4008A773F /* YYIMChat.m */,
+				D4FB5C0E1BA826E4008A773F /* YYIMConfig.h */,
+				D4FB5C0F1BA826E4008A773F /* YYIMConfig.m */,
+				D48298411BA7C42900AD5F7A /* YYIMError.h */,
+				D48298421BA7C42900AD5F7A /* YYIMError.m */,
+				D48298431BA7C42900AD5F7A /* YYIMLogger.h */,
+				D48298441BA7C42900AD5F7A /* YYIMLogger.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D482984A1BA7C6F300AD5F7A /* AsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				D482984B1BA7C6F300AD5F7A /* YMGCDAsyncSocket.h */,
+				D482984C1BA7C6F300AD5F7A /* YMGCDAsyncSocket.m */,
+			);
+			name = AsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		D482984D1BA7C6F300AD5F7A /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				D482984E1BA7C6F300AD5F7A /* YMDDAbstractDatabaseLogger.h */,
+				D482984F1BA7C6F300AD5F7A /* YMDDAbstractDatabaseLogger.m */,
+				D48298501BA7C6F300AD5F7A /* YMDDASLLogger.h */,
+				D48298511BA7C6F300AD5F7A /* YMDDASLLogger.m */,
+				D48298521BA7C6F300AD5F7A /* YMDDFileLogger.h */,
+				D48298531BA7C6F300AD5F7A /* YMDDFileLogger.m */,
+				D48298541BA7C6F300AD5F7A /* YMDDLog+LOGV.h */,
+				D48298551BA7C6F300AD5F7A /* YMDDLog.h */,
+				D48298561BA7C6F300AD5F7A /* YMDDLog.m */,
+				D48298571BA7C6F300AD5F7A /* YMDDTTYLogger.h */,
+				D48298581BA7C6F300AD5F7A /* YMDDTTYLogger.m */,
+				D48298591BA7C6F300AD5F7A /* Extensions */,
+			);
+			name = Lumberjack;
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		D48298591BA7C6F300AD5F7A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D482985A1BA7C6F300AD5F7A /* YMDDContextFilterLogFormatter.h */,
+				D482985B1BA7C6F300AD5F7A /* YMDDContextFilterLogFormatter.m */,
+				D482985C1BA7C6F300AD5F7A /* YMDDDispatchQueueLogFormatter.h */,
+				D482985D1BA7C6F300AD5F7A /* YMDDDispatchQueueLogFormatter.m */,
+				D482985E1BA7C6F300AD5F7A /* YMDDMultiFormatter.h */,
+				D482985F1BA7C6F300AD5F7A /* YMDDMultiFormatter.m */,
+				D48298601BA7C6F300AD5F7A /* README.txt */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D482986D1BA7C6F300AD5F7A /* libidn */ = {
+			isa = PBXGroup;
+			children = (
+				D482986E1BA7C6F300AD5F7A /* build-libidn.sh */,
+				D482986F1BA7C6F300AD5F7A /* idn-int.h */,
+				D48298701BA7C6F300AD5F7A /* libidn.a */,
+				D48298711BA7C6F300AD5F7A /* stringprep.h */,
+			);
+			path = libidn;
+			sourceTree = "<group>";
+		};
+		D4AD25BE1AEDCCE600EF7498 /* JUMP */ = {
+			isa = PBXGroup;
+			children = (
+				D4AD25C01AEDD65500EF7498 /* JUMPFramework.h */,
+				D4AD25C11AEDD87E00EF7498 /* Authentication */,
+				D4AD25BF1AEDD61A00EF7498 /* Core */,
+				D43890D01AF0D38A0031765A /* Extensions */,
+				D4AD25F11AEDE18C00EF7498 /* Utilities */,
+			);
+			path = JUMP;
+			sourceTree = "<group>";
+		};
+		D4AD25BF1AEDD61A00EF7498 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D4032EA41B58A16F00783752 /* JUMPLogging.h */,
+				D43890BE1AEF80320031765A /* JUMPInternal.h */,
+				D43890B41AEF685A0031765A /* JUMPIQ.h */,
+				D43890B51AEF685A0031765A /* JUMPIQ.m */,
+				D4AD25EE1AEDE08700EF7498 /* JUMPJID.h */,
+				D4AD25EF1AEDE08700EF7498 /* JUMPJID.m */,
+				D43890B71AEF6DF10031765A /* JUMPMessage.h */,
+				D43890B81AEF6DF10031765A /* JUMPMessage.m */,
+				D43890BA1AEF782C0031765A /* JUMPModule.h */,
+				D43890BB1AEF782C0031765A /* JUMPModule.m */,
+				D4AD25FB1AEE02D800EF7498 /* JUMPPacket.h */,
+				D4AD25FC1AEE02D800EF7498 /* JUMPPacket.m */,
+				D43890BF1AEF811F0031765A /* JUMPParser.h */,
+				D43890C01AEF811F0031765A /* JUMPParser.m */,
+				D4AD25F81AEE011900EF7498 /* JUMPPresence.h */,
+				D4AD25F91AEE011900EF7498 /* JUMPPresence.m */,
+				D4AD25C91AEDDC1800EF7498 /* JUMPStream.h */,
+				D4AD25CA1AEDDC1800EF7498 /* JUMPStream.m */,
+				D45E24571AF8C4E000B1528B /* JUMPHeader.h */,
+				D45E24581AF8C4E000B1528B /* JUMPHeader.m */,
+				D4A0D2BC1B1C48C9001DC70E /* JUMPError.h */,
+				D4A0D2BD1B1C48C9001DC70E /* JUMPError.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D4AD25C11AEDD87E00EF7498 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				D43890CB1AF0A9F70031765A /* Anonymous */,
+				D4AD25C51AEDDB2400EF7498 /* Plain */,
+				D4AD25C31AEDDAB200EF7498 /* JUMPSASLAuthentication.h */,
+				D43890BD1AEF7F380031765A /* JUMPCustomBinding.h */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		D4AD25C51AEDDB2400EF7498 /* Plain */ = {
+			isa = PBXGroup;
+			children = (
+				D4AD25C61AEDDB6F00EF7498 /* JUMPPlainAuthentication.h */,
+				D4AD25C71AEDDB6F00EF7498 /* JUMPPlainAuthentication.m */,
+			);
+			path = Plain;
+			sourceTree = "<group>";
+		};
+		D4AD25F11AEDE18C00EF7498 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D4AD25F21AEDE18C00EF7498 /* YMGCDMulticastDelegate.h */,
+				D4AD25F31AEDE18C00EF7498 /* YMGCDMulticastDelegate.m */,
+				D4AD25F51AEDE1C600EF7498 /* JUMPStringPrep.h */,
+				D4AD25F61AEDE1C600EF7498 /* JUMPStringPrep.m */,
+				D43890C21AEF86350031765A /* JUMPIDTracker.h */,
+				D43890C31AEF86350031765A /* JUMPIDTracker.m */,
+				D43890C81AF072080031765A /* JUMPSRVResolver.h */,
+				D43890C91AF072080031765A /* JUMPSRVResolver.m */,
+				D43890E61AF1C0F10031765A /* JUMPTimer.h */,
+				D43890E71AF1C0F10031765A /* JUMPTimer.m */,
+				D4A0D2CC1B1D3C0D001DC70E /* JUMPOPTracker.h */,
+				D4A0D2CD1B1D3C0D001DC70E /* JUMPOPTracker.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D4FB5BB51BA814AA008A773F /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				D4FB5BB61BA814AA008A773F /* YYIMChatDelegate.h */,
+				D4FB5BB71BA814AA008A773F /* YYIMChatGroupDelegate.h */,
+				D4FB5BB81BA814AA008A773F /* YYIMMessageDelegate.h */,
+				D4FB5BB91BA814AA008A773F /* YYIMNotificationDelegate.h */,
+				D4FB5BBC1BA814AA008A773F /* YYIMPubAccountDelegate.h */,
+				D4FB5BBD1BA814AA008A773F /* YYIMRosterDelegate.h */,
+				D4FB5BBE1BA814AA008A773F /* YYIMTeleconferenceDelegate.h */,
+				CC7156791C4F208E006968BF /* YYIMNetMeetingDelegate.h */,
+				D47044121D37736100BE48AC /* YYIMExtDelegate.h */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		D4FB5BC01BA814AA008A773F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D4FB5BC11BA814AA008A773F /* YYIMAttachProgressDelegate.h */,
+				D4FB5BC21BA814AA008A773F /* YYIMLoginDelegate.h */,
+				D4FB5BC31BA814AA008A773F /* YYIMTokenDelegate.h */,
+				D4FB5BBF1BA814AA008A773F /* YYIMUserDelegate.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D4FB5BC61BA81854008A773F /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				D4FB5BC71BA81854008A773F /* Delegate */,
+				D4FB5BDA1BA81854008A773F /* YYIMChatGroupProtocol.h */,
+				D4FB5BF01BA81854008A773F /* YYIMAttachProtocol.h */,
+				D4FB5BF11BA81854008A773F /* YYIMBaseProtocol.h */,
+				D4FB5BF21BA81854008A773F /* YYIMConnectProtocol.h */,
+				D4FB5BF31BA81854008A773F /* YYIMLoginProtocol.h */,
+				D4FB5BF41BA81854008A773F /* YYIMTokenProtocol.h */,
+				D4FB5BF51BA81854008A773F /* YYIMUserProtocol.h */,
+				D4FB5BDB1BA81854008A773F /* YYIMChatProtocol.h */,
+				D4FB5BDC1BA81854008A773F /* YYIMExtProtocol.h */,
+				D4FB5BDD1BA81854008A773F /* YYIMMessageProtocol.h */,
+				D4FB5BDE1BA81854008A773F /* YYIMNotificationProtocol.h */,
+				D4FB5BE11BA81854008A773F /* YYIMPubAccountProtocol.h */,
+				D4FB5BE21BA81854008A773F /* YYIMRosterProtocol.h */,
+				D4FB5BE31BA81854008A773F /* YYIMTeleconferenceProtocol.h */,
+				CC0815EE1C7C3B29000FFBB4 /* YYIMNetMeetingProtocol.h */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		D4FB5BC71BA81854008A773F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D4FB5C3C1BA8335F008A773F /* YYIMAttachManager.h */,
+				D4FB5C3D1BA8335F008A773F /* YYIMAttachManager.m */,
+				D4FB5C3E1BA8335F008A773F /* YYIMBaseDataManager.h */,
+				D4FB5C3F1BA8335F008A773F /* YYIMBaseDataManager.m */,
+				D4FB5BC81BA81854008A773F /* YYIMChatGroupProvider.h */,
+				D4FB5BC91BA81854008A773F /* YYIMChatGroupProvider.m */,
+				D4F075CF1C2CE25000E9A49C /* YYIMChatGroupVersionProvider.h */,
+				D4F075D01C2CE25000E9A49C /* YYIMChatGroupVersionProvider.m */,
+				D4FB5C401BA8335F008A773F /* YYIMConnectManager.h */,
+				D4FB5C411BA8335F008A773F /* YYIMConnectManager.m */,
+				D4FB5BCA1BA81854008A773F /* YYIMExtManager.h */,
+				D4FB5BCB1BA81854008A773F /* YYIMExtManager.m */,
+				D4FB5C421BA8335F008A773F /* YYIMLoginManager.h */,
+				D4FB5C431BA8335F008A773F /* YYIMLoginManager.m */,
+				D4FB5BCC1BA81854008A773F /* YYIMMessageManager.h */,
+				D4FB5BCD1BA81854008A773F /* YYIMMessageManager.m */,
+				CCFEC0D11C48D3380049CA25 /* YYIMNetMeetingManager.h */,
+				CCFEC0D21C48D3380049CA25 /* YYIMNetMeetingManager.m */,
+				D4FB5BCE1BA81854008A773F /* YYIMNotificationManager.h */,
+				D4FB5BCF1BA81854008A773F /* YYIMNotificationManager.m */,
+				D4FB5BD41BA81854008A773F /* YYIMPubAccountManager.h */,
+				D4FB5BD51BA81854008A773F /* YYIMPubAccountManager.m */,
+				D4091AF51BD5EF21000F8696 /* YYIMRosterCollectProvider.h */,
+				D4091AF61BD5EF21000F8696 /* YYIMRosterCollectProvider.m */,
+				D4FB5BD61BA81854008A773F /* YYIMRosterProvider.h */,
+				D4FB5BD71BA81854008A773F /* YYIMRosterProvider.m */,
+				D4FB5BD81BA81854008A773F /* YYIMTeleconferenceManager.h */,
+				D4FB5BD91BA81854008A773F /* YYIMTeleconferenceManager.m */,
+				D4FB5C441BA8335F008A773F /* YYIMUserProvider.h */,
+				D4FB5C451BA8335F008A773F /* YYIMUserProvider.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		D4FB5C051BA81977008A773F /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				D43623291A8995960061EA07 /* YYMessage.h */,
+				D436232A1A8995960061EA07 /* YYMessage.m */,
+				D436232B1A8995960061EA07 /* YYMessageContent.h */,
+				D436232C1A8995960061EA07 /* YYMessageContent.m */,
+				CC25B4D71D0D724C005B863B /* YYMessageFile.h */,
+				CC25B4D81D0D724C005B863B /* YYMessageFile.m */,
+				D436232D1A8995960061EA07 /* YYRecentMessage.h */,
+				D436232E1A8995960061EA07 /* YYRecentMessage.m */,
+				CC09C9071C3CA17300B98BAD /* YYSearchMessage.h */,
+				CC09C9081C3CA17300B98BAD /* YYSearchMessage.m */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		D4FB5C061BA81991008A773F /* ChatGroup */ = {
+			isa = PBXGroup;
+			children = (
+				D43623231A8995960061EA07 /* YYChatGroup.h */,
+				D43623241A8995960061EA07 /* YYChatGroup.m */,
+				D43623251A8995960061EA07 /* YYChatGroupMember.h */,
+				D43623261A8995960061EA07 /* YYChatGroupMember.m */,
+				D41B9A6B1C9911060057B21E /* YYChatGroupInfo.h */,
+				D41B9A6C1C9911060057B21E /* YYChatGroupInfo.m */,
+			);
+			name = ChatGroup;
+			sourceTree = "<group>";
+		};
+		D4FB5C071BA819A8008A773F /* PubAccount */ = {
+			isa = PBXGroup;
+			children = (
+				D4073A631ADBA27000744165 /* YYPubAccount.h */,
+				D4073A641ADBA27000744165 /* YYPubAccount.m */,
+				CC3492291D1A37D600CC7C22 /* YYPubAccountMenu.h */,
+				CC34922A1D1A37D600CC7C22 /* YYPubAccountMenu.m */,
+			);
+			name = PubAccount;
+			sourceTree = "<group>";
+		};
+		D4FB5C081BA819CD008A773F /* Roster */ = {
+			isa = PBXGroup;
+			children = (
+				D436232F1A8995960061EA07 /* YYRoster.h */,
+				D43623301A8995960061EA07 /* YYRoster.m */,
+			);
+			name = Roster;
+			sourceTree = "<group>";
+		};
+		D4FB5C091BA819DB008A773F /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D43623331A8995960061EA07 /* YYUser.h */,
+				D43623341A8995960061EA07 /* YYUser.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		D4FB5C0A1BA819F6008A773F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D45E22181B1456AA00C326E9 /* YYSettings.h */,
+				D45E22191B1456AA00C326E9 /* YYSettings.m */,
+				D427E6B31AA6EA8C007157AE /* YYToken.h */,
+				D427E6B41AA6EA8C007157AE /* YYToken.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F11DE4811ECDBF7C0088F947 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				F11DE4821ECDBF9D0088F947 /* YYFile.h */,
+				F11DE4831ECDBF9D0088F947 /* YYFile.m */,
+				D40253941B6627760056E8CB /* YYAttach.h */,
+				D40253951B6627760056E8CB /* YYAttach.m */,
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D43622F01A8995350061EA07 /* YonyouIMSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43623051A8995360061EA07 /* Build configuration list for PBXNativeTarget "YonyouIMSdk" */;
+			buildPhases = (
+				D43622ED1A8995350061EA07 /* Sources */,
+				D43622EE1A8995350061EA07 /* Frameworks */,
+				D43622EF1A8995350061EA07 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YonyouIMSdk;
+			productName = YonyouIMSdk;
+			productReference = D43622F11A8995350061EA07 /* libYonyouIMSdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D43622E91A8995350061EA07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yonyou;
+				TargetAttributes = {
+					D43622F01A8995350061EA07 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D43622EC1A8995350061EA07 /* Build configuration list for PBXProject "YonyouIMSdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D43622E81A8995350061EA07;
+			productRefGroup = D43622F21A8995350061EA07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D43622F01A8995350061EA07 /* YonyouIMSdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D43622ED1A8995350061EA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43625301A8995970061EA07 /* YYIMStringUtility.m in Sources */,
+				D4FB5C101BA826E4008A773F /* YYIMChat.m in Sources */,
+				D436253D1A8995970061EA07 /* YYFMDatabaseAdditions.m in Sources */,
+				D4AD25FA1AEE011900EF7498 /* JUMPPresence.m in Sources */,
+				D43890CE1AF0AA2C0031765A /* JUMPAnonymousAuthentication.m in Sources */,
+				D436253E1A8995970061EA07 /* YYFMDatabasePool.m in Sources */,
+				CC82FA241CF7E0CB00A4E091 /* YMAFURLSessionManager.m in Sources */,
+				D436252F1A8995970061EA07 /* YYIMResourceUtility.m in Sources */,
+				D4FB5BFE1BA81854008A773F /* YYIMRosterProvider.m in Sources */,
+				D45A5B2F1B4B5A99005726D0 /* YYIMPanDBHelper.m in Sources */,
+				D4A0D2C51B1C510E001DC70E /* JUMPReconnect.m in Sources */,
+				D436251C1A8995970061EA07 /* YYChatGroupMember.m in Sources */,
+				D43625231A8995970061EA07 /* YYUser.m in Sources */,
+				D48298981BA7C6F300AD5F7A /* YMGCDAsyncSocket.m in Sources */,
+				D4091AF71BD5EF21000F8696 /* YYIMRosterCollectProvider.m in Sources */,
+				D41B9B5D1CA134D40057B21E /* YYNetMeetingInfo.m in Sources */,
+				D436251E1A8995970061EA07 /* YYMessage.m in Sources */,
+				D4A0D2CE1B1D3C0D001DC70E /* JUMPOPTracker.m in Sources */,
+				D4FB5BF91BA81854008A773F /* YYIMMessageManager.m in Sources */,
+				CC25B4D91D0D724C005B863B /* YYMessageFile.m in Sources */,
+				CC82FA311CF8206300A4E091 /* YMAFHTTPUploadOperationManager.m in Sources */,
+				D427E6B51AA6EA8C007157AE /* YYToken.m in Sources */,
+				D42145221AD6466600BA2304 /* YYUserExt.m in Sources */,
+				D43625211A8995970061EA07 /* YYRoster.m in Sources */,
+				D4AD25FD1AEE02D800EF7498 /* JUMPPacket.m in Sources */,
+				D4FB5BFA1BA81854008A773F /* YYIMNotificationManager.m in Sources */,
+				CC86BB401CF4336D00E91362 /* YYNetMeetingCalendarEvent.m in Sources */,
+				F11DE4841ECDBF9D0088F947 /* YYFile.m in Sources */,
+				CC3603111CCF43A9009CA364 /* YYNetMeetingHistory.m in Sources */,
+				D43625421A8995970061EA07 /* YYIMFirstLetterHelper.m in Sources */,
+				CC06B4D41C589B0600709D67 /* YYIMNetMeetingDBHelper.m in Sources */,
+				D482989B1BA7C6F300AD5F7A /* YMDDFileLogger.m in Sources */,
+				D43625431A8995970061EA07 /* YMAmrFileCodec.mm in Sources */,
+				D48298471BA7C42900AD5F7A /* YYIMError.m in Sources */,
+				CC82FA1F1CF7E0CB00A4E091 /* YMAFHTTPSessionManager.m in Sources */,
+				CC82FA221CF7E0CB00A4E091 /* YMAFURLRequestSerialization.m in Sources */,
+				D40B06CC1B3AD3D9001595EF /* YYIMDBHelper.m in Sources */,
+				CC0815F41C7C3B48000FFBB4 /* YYNetMeetingMember.m in Sources */,
+				D43890E81AF1C0F10031765A /* JUMPTimer.m in Sources */,
+				D4FB5BFD1BA81854008A773F /* YYIMPubAccountManager.m in Sources */,
+				CC82FA201CF7E0CB00A4E091 /* YMAFNetworkReachabilityManager.m in Sources */,
+				D48298481BA7C42900AD5F7A /* YYIMLogger.m in Sources */,
+				D482989A1BA7C6F300AD5F7A /* YMDDASLLogger.m in Sources */,
+				D4FB5C481BA8335F008A773F /* YYIMConnectManager.m in Sources */,
+				D43625441A8995970061EA07 /* wav.mm in Sources */,
+				D4AD25F41AEDE18C00EF7498 /* YMGCDMulticastDelegate.m in Sources */,
+				D43625401A8995970061EA07 /* YYFMResultSet.m in Sources */,
+				D436251F1A8995970061EA07 /* YYMessageContent.m in Sources */,
+				D4FB5BF71BA81854008A773F /* YYIMChatGroupProvider.m in Sources */,
+				D4AD25F01AEDE08700EF7498 /* JUMPJID.m in Sources */,
+				D4C00D661ADD32A60028A31C /* YYPubAccountExt.m in Sources */,
+				D4FB5C491BA8335F008A773F /* YYIMLoginManager.m in Sources */,
+				D42145251AD6467A00BA2304 /* YYChatGroupExt.m in Sources */,
+				D4AD25CB1AEDDC1800EF7498 /* JUMPStream.m in Sources */,
+				D4AD25F71AEDE1C600EF7498 /* JUMPStringPrep.m in Sources */,
+				D43890B91AEF6DF10031765A /* JUMPMessage.m in Sources */,
+				D40253961B6627760056E8CB /* YYAttach.m in Sources */,
+				D43890C41AEF86350031765A /* JUMPIDTracker.m in Sources */,
+				CC82FA231CF7E0CB00A4E091 /* YMAFURLResponseSerialization.m in Sources */,
+				D40B06CA1B3AD3D9001595EF /* YYIMBaseDBHelper.m in Sources */,
+				D48298991BA7C6F300AD5F7A /* YMDDAbstractDatabaseLogger.m in Sources */,
+				D436252D1A8995970061EA07 /* YYIMHttpUtility.m in Sources */,
+				D43625471A8995970061EA07 /* YMVoiceConverter.mm in Sources */,
+				D482989D1BA7C6F300AD5F7A /* YMDDTTYLogger.m in Sources */,
+				CC82FA211CF7E0CB00A4E091 /* YMAFSecurityPolicy.m in Sources */,
+				D4FB5C4A1BA8335F008A773F /* YYIMUserProvider.m in Sources */,
+				D45E221A1B1456AA00C326E9 /* YYSettings.m in Sources */,
+				D482983A1BA7C3BB00AD5F7A /* YYIMChatManager.m in Sources */,
+				D45E24591AF8C4E000B1528B /* JUMPHeader.m in Sources */,
+				D4FB5BF81BA81854008A773F /* YYIMExtManager.m in Sources */,
+				D482989C1BA7C6F300AD5F7A /* YMDDLog.m in Sources */,
+				D4AAAD031C8FFC10000FFF12 /* YYIMMessageVersionHelper.m in Sources */,
+				CCD1F99F1CC8CDC600B96BA8 /* YYNetMeetingDetail.m in Sources */,
+				D4A0D2C61B1C510E001DC70E /* JUMPAutoPing.m in Sources */,
+				D40B06CB1B3AD3D9001595EF /* YYIMChatGroupMemberDBHelper.m in Sources */,
+				D4FB5C471BA8335F008A773F /* YYIMBaseDataManager.m in Sources */,
+				D4A0D2C71B1C510E001DC70E /* JUMPPing.m in Sources */,
+				CCFEC0D31C48D3380049CA25 /* YYIMNetMeetingManager.m in Sources */,
+				D43890BC1AEF782C0031765A /* JUMPModule.m in Sources */,
+				D43890CA1AF072080031765A /* JUMPSRVResolver.m in Sources */,
+				D43890C11AEF811F0031765A /* JUMPParser.m in Sources */,
+				D4FB5C461BA8335F008A773F /* YYIMAttachManager.m in Sources */,
+				CC09C9091C3CA17300B98BAD /* YYSearchMessage.m in Sources */,
+				D41B9A6D1C9911060057B21E /* YYChatGroupInfo.m in Sources */,
+				D482989E1BA7C6F300AD5F7A /* YMDDContextFilterLogFormatter.m in Sources */,
+				D48298A01BA7C6F300AD5F7A /* YMDDMultiFormatter.m in Sources */,
+				CC34922B1D1A37D600CC7C22 /* YYPubAccountMenu.m in Sources */,
+				D436251B1A8995970061EA07 /* YYChatGroup.m in Sources */,
+				D4FB5BFF1BA81854008A773F /* YYIMTeleconferenceManager.m in Sources */,
+				D482989F1BA7C6F300AD5F7A /* YMDDDispatchQueueLogFormatter.m in Sources */,
+				D4FB5C111BA826E4008A773F /* YYIMConfig.m in Sources */,
+				D4AD25C81AEDDB6F00EF7498 /* JUMPPlainAuthentication.m in Sources */,
+				D43625201A8995970061EA07 /* YYRecentMessage.m in Sources */,
+				D43625321A8995970061EA07 /* YYIMJUMPHelper.m in Sources */,
+				D436253F1A8995970061EA07 /* YYFMDatabaseQueue.m in Sources */,
+				D4073A651ADBA27000744165 /* YYPubAccount.m in Sources */,
+				D4A0D2BE1B1C48C9001DC70E /* JUMPError.m in Sources */,
+				D436253C1A8995970061EA07 /* YYFMDatabase.m in Sources */,
+				CC0815F31C7C3B48000FFBB4 /* YYNetMeeting.m in Sources */,
+				D43890B61AEF685A0031765A /* JUMPIQ.m in Sources */,
+				D4F075D11C2CE25000E9A49C /* YYIMChatGroupVersionProvider.m in Sources */,
+				D488C1BD1C5EE9EC00C35C70 /* YYIMGZipUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D43623031A8995360061EA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D43623041A8995360061EA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D43623061A8995360061EA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: 腾飞 李 (594U4K532Y)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_CURRENT_VERSION = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YonyouIMSdk/Vender/VoiceConvert/lib",
+					"$(PROJECT_DIR)/YonyouIMSdk/XMPP/Vendor/libidn",
+					"$(PROJECT_DIR)/YonyouIMSdk/JUMP/Vender/libidn",
+					"$(PROJECT_DIR)/YonyouIMSdk/Vender/libidn",
+					"$(PROJECT_DIR)/YonyouIMSdk/Vender/Agora",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7cdd5ad9-a8f3-42b8-ad18-9cd86730654c";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Wno-sizeof-array-argument",
+					"-Wno-sizeof-pointer-memaccess",
+				);
+			};
+			name = Debug;
+		};
+		D43623071A8995360061EA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: yonyou software Co.,Ltd.";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_CURRENT_VERSION = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YonyouIMSdk/Vender/VoiceConvert/lib",
+					"$(PROJECT_DIR)/YonyouIMSdk/XMPP/Vendor/libidn",
+					"$(PROJECT_DIR)/YonyouIMSdk/JUMP/Vender/libidn",
+					"$(PROJECT_DIR)/YonyouIMSdk/Vender/libidn",
+					"$(PROJECT_DIR)/YonyouIMSdk/Vender/Agora",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "147a919f-d729-48a8-90e9-f05eb007506a";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Wno-sizeof-array-argument",
+					"-Wno-sizeof-pointer-memaccess",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D43622EC1A8995350061EA07 /* Build configuration list for PBXProject "YonyouIMSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43623031A8995360061EA07 /* Debug */,
+				D43623041A8995360061EA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43623051A8995360061EA07 /* Build configuration list for PBXNativeTarget "YonyouIMSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43623061A8995360061EA07 /* Debug */,
+				D43623071A8995360061EA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D43622E91A8995350061EA07 /* Project object */;
+}
